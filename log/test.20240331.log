@@ -1,0 +1,263 @@
+INFO - 2024-03-31 09:01:29,880 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '7FF0F97aeFe723CAC7d675f7fb39b'}
+ERROR - 2024-03-31 09:01:29,885 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-31 09:01:29,886 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 09:01:30,111 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 09:01:30,112 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 09:01:30,116 - assertion.py:38 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:01:30,231 - assertion.py:38 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:06:46,843 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'Fd92578Cc4c6EF109b1d79F83e89f'}
+ERROR - 2024-03-31 09:06:46,849 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值None
+INFO - 2024-03-31 09:06:46,850 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 09:06:47,085 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 09:06:47,085 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 09:06:47,093 - assertion.py:38 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:06:47,200 - assertion.py:38 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:18:11,270 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'fc899bf5dca5dba9E7d27C30e5A7E'}
+ERROR - 2024-03-31 09:18:11,272 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值None
+INFO - 2024-03-31 09:18:11,272 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 09:18:11,336 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 09:18:11,336 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 09:18:11,337 - assertion.py:38 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:18:11,367 - assertion.py:38 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:18:46,557 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '6ee7A15eCBa7D328001356e1Bb42D'}
+ERROR - 2024-03-31 09:18:46,561 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值None
+INFO - 2024-03-31 09:18:46,563 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 09:18:46,761 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 09:18:46,762 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 09:18:46,766 - assertion.py:38 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:18:46,845 - assertion.py:38 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:22:00,061 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'CF1C993A4Bf6A5e663d3cffCe887e'}
+ERROR - 2024-03-31 09:22:00,067 - assertion.py:42 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值None
+INFO - 2024-03-31 09:22:00,068 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 09:22:00,286 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 09:22:00,287 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 09:22:00,290 - assertion.py:39 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:22:00,389 - assertion.py:39 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:26:43,799 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '6f6CD3A1a4f716C98CEA2098ce218'}
+ERROR - 2024-03-31 09:26:43,801 - assertion.py:43 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值None
+INFO - 2024-03-31 09:26:43,802 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 09:26:43,983 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 09:26:43,984 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 09:26:43,988 - assertion.py:40 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:26:44,073 - assertion.py:40 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:36:28,683 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '0dA72Ec51eb06c96d80Fb60F671ba'}
+ERROR - 2024-03-31 09:36:28,685 - assertion.py:44 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值None
+INFO - 2024-03-31 09:36:28,686 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 09:36:28,758 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 09:36:28,759 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 09:36:28,760 - assertion.py:41 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 09:36:28,792 - assertion.py:41 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:03:51,319 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '15ABdf474dE0C30e1AB19aF79bd2c'}
+INFO - 2024-03-31 10:03:51,323 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:03:51,323 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 10:03:51,344 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 10:03:51,344 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 10:03:51,346 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:03:51,386 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:12:35,304 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '59eccFb4DF58a75d4f69ca3b1D077'}
+INFO - 2024-03-31 10:12:35,306 - assertion.py:44 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:12:35,307 - assertion.py:26 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 10:12:35,336 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 10:12:35,337 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 10:12:35,339 - assertion.py:44 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:12:35,383 - assertion.py:44 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:14:46,396 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '625Ea77518FB85A0a384Dc9bDFd98'}
+INFO - 2024-03-31 10:14:46,398 - assertion.py:44 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:14:46,399 - assertion.py:26 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 10:14:46,418 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 10:14:46,418 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 10:14:46,420 - assertion.py:44 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:14:46,453 - assertion.py:44 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:21:25,183 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'c97520F8ea47E0C4E2dAfc2EaDF8D'}
+INFO - 2024-03-31 10:21:25,185 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:21:25,186 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 10:21:25,205 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 10:21:25,206 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 10:21:25,207 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:21:25,247 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:22:28,619 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '491Fca78Bb1BbbaD6c20ecA893897'}
+INFO - 2024-03-31 10:22:28,621 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:22:28,621 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 10:22:28,641 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 10:22:28,641 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 10:22:28,642 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:22:28,677 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:24:08,872 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'e57aE988c99120973d3AfbbFc3c8e'}
+INFO - 2024-03-31 10:24:08,874 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:24:08,876 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 10:24:08,902 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 10:24:08,902 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 10:24:08,904 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:24:08,943 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:30:28,644 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '60d92e1cf77B0B2dd4a4E7A94638b'}
+INFO - 2024-03-31 10:30:28,647 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:30:28,648 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 10:30:28,669 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 10:30:28,669 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 10:30:28,671 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:30:28,709 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:30:53,682 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'ac6ACe4FcAEce6EA72B5277Dbb3eB'}
+INFO - 2024-03-31 10:30:53,683 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:30:53,684 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 10:30:53,709 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 10:30:53,709 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 10:30:53,712 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:30:53,754 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:31:16,528 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '767769dDA6a3F3e4bF5511B8AACaB'}
+ERROR - 2024-03-31 10:31:16,529 - assertion.py:45 -[assertion:contains_assert] - contains断言失败,实际结果None不包含预期值m
+INFO - 2024-03-31 10:31:16,532 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 10:31:16,697 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 10:31:16,697 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 10:31:16,701 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 10:31:16,740 - assertion.py:42 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 13:27:36,998 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '98032FeFC3f6989F8Ad977Ef04dEd'}
+INFO - 2024-03-31 13:27:37,000 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 13:27:37,001 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 13:27:37,099 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 13:27:37,099 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 13:27:37,101 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 13:27:37,151 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 14:41:51,386 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '7Fe4c46Bfbeb2E331e4B8C29A58F3'}
+INFO - 2024-03-31 14:41:51,387 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 14:41:51,388 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 14:41:51,413 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 14:41:51,414 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 14:41:51,416 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 14:41:51,468 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 14:44:20,280 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '496440BAcB8BAebd5EF22850Dcd52'}
+INFO - 2024-03-31 14:44:20,281 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 14:44:20,282 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 14:44:20,299 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 14:44:20,299 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 14:44:20,300 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 14:44:20,334 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 14:44:41,680 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'eBcE48b6eF489AdeDcCBffd84CF5A'}
+INFO - 2024-03-31 14:44:41,682 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 14:44:41,683 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 14:44:41,703 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 14:44:41,704 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 14:44:41,705 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 14:44:41,738 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:01:36,192 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '528DcCa60D42bBFAf851d5B1dAf7f'}
+INFO - 2024-03-31 15:01:36,269 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 15:01:36,269 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 15:03:53,378 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '87d124269A97e0e9696c3817b1Ebb'}
+INFO - 2024-03-31 15:03:53,445 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 15:03:53,446 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 15:05:33,632 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '78902eCFCbF455E9F9bF1ca9Bb3DA'}
+INFO - 2024-03-31 15:05:33,633 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:05:33,634 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 15:05:33,654 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 15:05:33,654 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 15:05:33,655 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:05:33,691 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:07:30,409 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '892Be780D72F7A4FCdA72C0F7A268'}
+INFO - 2024-03-31 15:07:30,412 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:07:30,413 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 15:07:30,448 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 15:07:30,449 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 15:07:30,452 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:07:30,536 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:15:23,523 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '6Cde05Aaa7a3de3Ff898DDcC6ec4E'}
+INFO - 2024-03-31 15:15:23,528 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:15:23,529 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 15:15:23,552 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 15:15:23,552 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 15:15:23,553 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:15:23,594 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:17:06,027 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'a69cc5477E07F1Eb0D6CD4b0BaAD8'}
+INFO - 2024-03-31 15:17:06,029 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:17:06,030 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 15:17:06,050 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 15:17:06,050 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 15:17:06,052 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:17:06,091 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:22:53,328 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'dFF34B627D6f7A1b24fCb0DB3DcE3'}
+INFO - 2024-03-31 15:22:53,329 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:22:53,330 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 15:22:53,353 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 15:22:53,354 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 15:22:53,357 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:22:53,395 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:24:36,198 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'd5AfDC47A83360134f7C3eA9BABf1'}
+INFO - 2024-03-31 15:24:36,200 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:24:36,202 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 15:24:36,222 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 15:24:36,222 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 15:24:36,224 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:24:36,256 - assertion.py:45 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:32:29,009 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '072d4DCbDde0E2d6C2179d0F8E781'}
+INFO - 2024-03-31 15:32:29,014 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:32:29,016 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 15:32:29,069 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 15:32:29,072 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 15:32:29,080 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:32:29,296 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:49:35,930 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '0f88dCd965e84cC1585626c6d3b5f'}
+INFO - 2024-03-31 15:49:35,932 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:49:35,933 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 15:49:35,965 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 15:49:35,965 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 15:49:35,967 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:49:36,017 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:58:30,182 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '55F1EBC6920Ab6BB68eCb34BaBD0B'}
+INFO - 2024-03-31 15:58:30,183 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:58:30,184 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 15:58:30,203 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 15:58:30,203 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 15:58:30,204 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 15:58:30,239 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:15:12,255 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '3EfC165368bdAe75EbC2cc6a5e3Bd'}
+INFO - 2024-03-31 16:15:12,257 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:15:12,258 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 16:15:12,345 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 16:15:12,345 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 16:15:12,346 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:15:12,393 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:23:44,244 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'B9c05f87a6ADB4c346bdEFbfd6D0f'}
+INFO - 2024-03-31 16:23:44,245 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:23:44,246 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 16:23:44,321 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 16:23:44,322 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 16:23:44,323 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:23:44,374 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:24:52,338 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '58d58fbcEAEF37EEa2cddc2c3F547'}
+INFO - 2024-03-31 16:24:52,339 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:24:52,342 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-31 16:24:52,343 - assertion.py:60 -[assertion:equal_assert] - 相等断言失败
+INFO - 2024-03-31 16:24:52,411 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 16:24:52,412 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 16:24:52,413 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:24:52,444 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:26:52,241 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '6b4F0DdaebB07532E32aF88EEb4eD'}
+INFO - 2024-03-31 16:26:52,246 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:26:52,248 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-31 16:26:52,250 - assertion.py:60 -[assertion:equal_assert] - 相等断言失败
+INFO - 2024-03-31 16:26:52,448 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 16:26:52,449 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 16:26:52,451 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:26:52,520 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:27:57,031 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '271EcF1692E2d0cc0f31C7D3c559d'}
+INFO - 2024-03-31 16:27:57,032 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:27:57,033 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 16:27:57,033 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-03-31 16:27:57,053 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 16:27:57,053 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 16:27:57,055 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:27:57,090 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:33:22,728 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '4FEFE71c012A81d37EA0CF11b6488'}
+ERROR - 2024-03-31 16:33:22,730 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果None不包含预期值None 
+INFO - 2024-03-31 16:33:22,730 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 16:33:22,731 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-03-31 16:33:22,804 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 16:33:22,804 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 16:33:22,807 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:33:22,840 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:33:40,947 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'CeAe3cEED3F067675ADe543fe9BBd'}
+INFO - 2024-03-31 16:33:40,949 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:33:40,949 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-31 16:33:40,950 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-03-31 16:33:40,969 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-31 16:33:40,969 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-31 16:33:40,971 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-31 16:33:41,006 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功

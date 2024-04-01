@@ -1,0 +1,225 @@
+ERROR - 2024-03-29 00:55:07,475 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013955067108>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+ERROR - 2024-03-29 00:55:07,475 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023ACFE85788>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+ERROR - 2024-03-29 00:55:07,491 - apiutil.py:126 -[apiutil:specification_yaml] - 'data'
+INFO - 2024-03-29 00:57:24,065 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '2Bf0cBFF0A2C0AedC64EF2A35B6CA'}
+INFO - 2024-03-29 00:57:24,073 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'A6C5B1aaB661Fb5aB1dFEF17fc1F9'}
+ERROR - 2024-03-29 00:57:24,092 - apiutil.py:126 -[apiutil:specification_yaml] - 'data'
+INFO - 2024-03-29 01:01:00,148 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '60Ab6Df1Dfd0C6d946795da40eB2a'}
+INFO - 2024-03-29 01:01:00,154 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '5d0De26Bb57c565EEaBD0c0D5E287'}
+ERROR - 2024-03-29 01:01:00,183 - apiutil.py:126 -[apiutil:specification_yaml] - 'data'
+INFO - 2024-03-29 01:11:51,757 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'D986Fe5F132282DC0a6b4B83C7508'}
+INFO - 2024-03-29 01:11:51,764 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '0C615B4d3fCF65C966fCf2E72a3a1'}
+ERROR - 2024-03-29 01:11:51,780 - apiutil.py:126 -[apiutil:specification_yaml] - 'data'
+INFO - 2024-03-29 01:13:46,792 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'c3Bbeb73F40F9398c07b8ACe3CDe7'}
+ERROR - 2024-03-29 01:14:17,130 - apiutil.py:126 -[apiutil:specification_yaml] - 'data'
+INFO - 2024-03-29 01:23:52,065 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'eFDA1cC14E2C2BAF7cA7Edcba987E'}
+INFO - 2024-03-29 01:23:52,067 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '9d18146bFc398f1d65de41e770cEb'}
+ERROR - 2024-03-29 01:23:52,084 - apiutil.py:126 -[apiutil:specification_yaml] - 'data'
+INFO - 2024-03-29 01:25:05,343 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '为提取到'}
+INFO - 2024-03-29 01:25:05,348 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '为提取到'}
+ERROR - 2024-03-29 01:25:05,374 - apiutil.py:126 -[apiutil:specification_yaml] - 'data'
+INFO - 2024-03-29 01:31:31,603 - test_login.py:15 -[test_login:test_Login01] - 参数化为
+INFO - 2024-03-29 01:31:31,632 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '52b3d5AFc2140b76EF8D0ACba245D'}
+INFO - 2024-03-29 01:31:31,635 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '07E0dDb2bd92A4f12F98fFf8eEcDe'}
+ERROR - 2024-03-29 01:31:31,650 - apiutil.py:126 -[apiutil:specification_yaml] - 'data'
+INFO - 2024-03-29 01:34:29,275 - test_login.py:15 -[test_login:test_Login01] - 参数化为:{'baseInfo': {'api-name': '用户登录', 'url': '/dar/user/login', 'method': 'post', 'header': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(token)}'}}, 'testCase': [{'case_name': '用户名和密码正确', 'data': {'user_name': 'test01', 'passwd': 'admin123'}, 'validation': [{'contains': {'msg': '登录成功'}}], 'extract': {'token': '$.token'}}]}
+INFO - 2024-03-29 01:34:29,300 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '66609afC2b6ffA7Fcd8fBaAdd7a87'}
+INFO - 2024-03-29 01:34:29,302 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'aae20Ccea7442A1eD4BaE7A1FdDE2'}
+ERROR - 2024-03-29 01:34:29,321 - apiutil.py:126 -[apiutil:specification_yaml] - 'data'
+INFO - 2024-03-29 01:35:27,478 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'ab6784A8ADa48f84C14f6ac5deaD7'}
+INFO - 2024-03-29 01:35:27,481 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'CbAB5E24a4aFFBbBb12FbD5fc3Ede'}
+INFO - 2024-03-29 01:36:10,240 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '5530a3F84E657dBEAd1f308Ed71bE'}
+INFO - 2024-03-29 01:36:10,251 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'CdebC7883B02dc4fe1a3D5F7f4d51'}
+INFO - 2024-03-29 01:36:10,265 - test_productList.py:15 -[test_productList:test_product] - 参数化为:{'baseInfo': {'api-name': '获取商品列表', 'url': '/coupApply/cms/goodsList', 'method': 'get', 'header': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(token)}'}}, 'testCase': [{'case_name': '查询商品列表', 'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'sise': 20}, 'validation': [{'contains': {'errer_code': '0000'}}], 'extract': {'token': '$.goodList[*].id'}}]}
+ERROR - 2024-03-29 01:36:10,273 - apiutil.py:126 -[apiutil:specification_yaml] - 'data'
+INFO - 2024-03-29 01:38:29,764 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'D2cBBE2AfC1b1ec68aa9fB633fcFF'}
+INFO - 2024-03-29 01:38:29,768 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '3DBf1aFBB2Fd03349b6E7b7672B42'}
+INFO - 2024-03-29 01:38:29,779 - test_productList.py:15 -[test_productList:test_product] - 参数化为:{'baseInfo': {'api-name': '获取商品列表', 'url': '/coupApply/cms/goodsList', 'method': 'get', 'header': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(token)}'}}, 'testCase': [{'case_name': '查询商品列表', 'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'sise': 20}, 'validation': [{'contains': {'errer_code': '0000'}}], 'extract': {'token': '$.goodList[*].id'}}]}
+ERROR - 2024-03-29 01:38:29,794 - apiutil.py:165 -[apiutil:extract_data] - 接口返回值异常
+INFO - 2024-03-29 02:06:30,773 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '973bbCba95FCaDcdEf39b7bBEA56d'}
+INFO - 2024-03-29 02:06:30,776 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'aea0b3B9ECF8D0E8A1Fb6a9CAaad6'}
+INFO - 2024-03-29 02:06:30,796 - test_productList.py:15 -[test_productList:test_product] - 参数化为:{'baseInfo': {'api-name': '获取商品列表', 'url': '/coupApply/cms/goodsList', 'method': 'get', 'header': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(token)}'}}, 'testCase': [{'case_name': '查询商品列表', 'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'sise': 20}, 'validation': [{'contains': {'errer_code': '0000'}}], 'extract_list': {'token': '$.goodList[*].goodsid'}}]}
+INFO - 2024-03-29 02:06:30,820 - apiutil.py:189 -[apiutil:extract_data_list] - json提取到参数：{'token': '未提取到数据，该接口返回结果可能为空'}
+ERROR - 2024-03-29 02:06:30,821 - apiutil.py:192 -[apiutil:extract_data_list] - 接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 02:07:56,452 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'E388a50Ea4Eaea3c958A161156Fa0'}
+INFO - 2024-03-29 02:07:56,456 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'eb8Fd9BadaDBa39c7D69B3441EEdA'}
+INFO - 2024-03-29 02:07:56,485 - apiutil.py:189 -[apiutil:extract_data_list] - json提取到参数：{'token': '未提取到数据，该接口返回结果可能为空'}
+ERROR - 2024-03-29 02:07:56,485 - apiutil.py:192 -[apiutil:extract_data_list] - 接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 02:11:04,620 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '590a5eEeAaBe913a60Fae75dFe4eD'}
+INFO - 2024-03-29 02:11:04,624 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '6b2fABFf7c2Ab4e9356e2F9BA4106'}
+INFO - 2024-03-29 02:11:04,661 - apiutil.py:189 -[apiutil:extract_data_list] - json提取到参数：{'token': '未提取到数据，该接口返回结果可能为空'}
+ERROR - 2024-03-29 02:11:04,662 - apiutil.py:192 -[apiutil:extract_data_list] - 接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 02:27:05,310 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'Bd5dFBfd591Bc1CED1E311839BeEE'}
+INFO - 2024-03-29 02:27:05,313 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'CACFA9e7D24cd5bbC4CdED9C3491A'}
+INFO - 2024-03-29 02:27:05,335 - apiutil.py:189 -[apiutil:extract_data_list] - json提取到参数：{'token': '未提取到数据，该接口返回结果可能为空'}
+ERROR - 2024-03-29 02:27:05,336 - apiutil.py:192 -[apiutil:extract_data_list] - 接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 02:46:59,212 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '6dEC64f47b9C4b23A4AD4E6fF2e5c'}
+INFO - 2024-03-29 02:46:59,215 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'ACB724dF2A33B97dFf8d6ea5FE0DC'}
+INFO - 2024-03-29 02:46:59,252 - apiutil.py:191 -[apiutil:extract_data_list] - json提取到参数：{'token': '未提取到数据，该接口返回结果可能为空'}
+ERROR - 2024-03-29 02:46:59,252 - apiutil.py:194 -[apiutil:extract_data_list] - 接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 02:51:16,469 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'edAfF2cE0aFE3a66f69fFaEcaCeFd'}
+INFO - 2024-03-29 02:51:16,475 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '7Fb72e56aa8Ff8ffd4b1B02f51AfB'}
+INFO - 2024-03-29 02:51:16,520 - apiutil.py:191 -[apiutil:extract_data_list] - json提取到参数：{'token': '未提取到数据，该接口返回结果可能为空'}
+ERROR - 2024-03-29 02:51:16,520 - apiutil.py:194 -[apiutil:extract_data_list] - 接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 03:00:31,978 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'EFeD78247C2CdD85Cfdd0BF37b7B6'}
+INFO - 2024-03-29 03:00:31,983 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'bb5B1Edb8c498feC6aFA20Db690Ca'}
+INFO - 2024-03-29 03:00:32,009 - apiutil.py:186 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-03-29 03:00:32,010 - apiutil.py:192 -[apiutil:extract_data_list] - json提取到参数：{'token': '未提取到数据，该接口返回结果可能为空'}
+ERROR - 2024-03-29 03:00:32,010 - apiutil.py:195 -[apiutil:extract_data_list] - 接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 03:01:50,957 - apiutil.py:158 -[apiutil:extract_data] - a2D3f0578d6629cda2FA1EDB257C3
+INFO - 2024-03-29 03:01:50,958 - apiutil.py:164 -[apiutil:extract_data] - json提取:{'token': 'a2D3f0578d6629cda2FA1EDB257C3'}
+INFO - 2024-03-29 03:01:50,961 - apiutil.py:158 -[apiutil:extract_data] - cBCb23Cb73915ed0a68b4d3b25cFf
+INFO - 2024-03-29 03:01:50,961 - apiutil.py:164 -[apiutil:extract_data] - json提取:{'token': 'cBCb23Cb73915ed0a68b4d3b25cFf'}
+INFO - 2024-03-29 03:01:50,994 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'token': '未提取到数据，该接口返回结果可能为空'}
+ERROR - 2024-03-29 03:01:50,994 - apiutil.py:196 -[apiutil:extract_data_list] - 接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 03:04:55,723 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '362CB9FF17FA6C4775D9Bcb12AeC2'}
+INFO - 2024-03-29 03:04:55,725 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '60F8c0092CFC94a9c78Fc3Aa1dB85'}
+INFO - 2024-03-29 03:04:55,748 - apiutil.py:186 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-03-29 03:04:55,749 - apiutil.py:192 -[apiutil:extract_data_list] - json提取到参数：{'token': '未提取到数据，该接口返回结果可能为空'}
+ERROR - 2024-03-29 03:04:55,749 - apiutil.py:195 -[apiutil:extract_data_list] - 接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 03:06:27,262 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '8AB2ac80f6dDd8B8a0C23bafc16D4'}
+INFO - 2024-03-29 03:06:27,267 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '2E433AcB37E5F76efBb1C0C31B2b7'}
+INFO - 2024-03-29 03:06:27,313 - apiutil.py:192 -[apiutil:extract_data_list] - json提取到参数：{'token': '未提取到数据，该接口返回结果可能为空'}
+ERROR - 2024-03-29 03:06:27,314 - apiutil.py:195 -[apiutil:extract_data_list] - 接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 03:08:00,671 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'B233122d8Fbfa9ffdADfaEeae31Fb'}
+INFO - 2024-03-29 03:08:00,675 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '04caC947faA1CDA9ddCA9c80C560d'}
+INFO - 2024-03-29 03:08:00,707 - apiutil.py:192 -[apiutil:extract_data_list] - json提取到参数：{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-29 03:08:00,708 - apiutil.py:195 -[apiutil:extract_data_list] - 接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 03:12:48,191 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '1Bb40608E012a2cdfCaabf2Ff99Be'}
+INFO - 2024-03-29 03:12:48,211 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'AA93622C620084bd3619bF215643A'}
+INFO - 2024-03-29 03:12:48,237 - apiutil.py:186 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 03:12:48,237 - apiutil.py:192 -[apiutil:extract_data_list] - json提取到参数：{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-29 03:12:48,237 - apiutil.py:195 -[apiutil:extract_data_list] - 'BaseRequests' object has no attribute 'read':接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 03:14:19,362 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '1CaE52D03fF44FA269fAD5CE944E8'}
+INFO - 2024-03-29 03:14:19,366 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'aa9a7cDbeb4a75ebE65AeF484D6Dc'}
+INFO - 2024-03-29 03:14:19,401 - apiutil.py:186 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 03:14:19,401 - apiutil.py:192 -[apiutil:extract_data_list] - json提取到参数：{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-29 03:14:19,402 - apiutil.py:195 -[apiutil:extract_data_list] - 'BaseRequests' object has no attribute 'read':接口返回值提取异常，请检查yaml文件extract_list表达式是否正确！
+INFO - 2024-03-29 03:17:13,770 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'Fe7f50FDdc3Eb1BDCA107CBc131eE'}
+INFO - 2024-03-29 03:17:13,776 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'bAC8BEdecDcE6cd6cf762B17FC3B8'}
+INFO - 2024-03-29 03:17:13,808 - apiutil.py:186 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 03:17:13,808 - apiutil.py:192 -[apiutil:extract_data_list] - json提取到参数：{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 03:17:29,746 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'CAf7a34fbcb59a00b193Cb897AD01'}
+INFO - 2024-03-29 03:17:29,751 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'c1FCDe889d55bf70Fe4dAEEbCe564'}
+INFO - 2024-03-29 03:17:29,789 - apiutil.py:186 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 03:17:29,789 - apiutil.py:192 -[apiutil:extract_data_list] - json提取到参数：{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 03:19:56,648 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'C3aEB9A0d92Bf31FBb89EE97CFEF7'}
+INFO - 2024-03-29 03:19:56,651 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'a9F3fC7aEa2f3C8eFAFfFCC089db7'}
+INFO - 2024-03-29 03:19:56,688 - apiutil.py:186 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 03:19:56,688 - apiutil.py:192 -[apiutil:extract_data_list] - json提取到参数：{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-29 03:23:27,253 - apiutil.py:128 -[apiutil:specification_yaml] - a bytes-like object is required, not 'int'
+ERROR - 2024-03-29 03:23:27,256 - apiutil.py:128 -[apiutil:specification_yaml] - a bytes-like object is required, not 'int'
+ERROR - 2024-03-29 03:23:27,296 - apiutil.py:128 -[apiutil:specification_yaml] - a bytes-like object is required, not 'int'
+INFO - 2024-03-29 03:31:16,934 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': 'FA8dDE1CAb40bC0bCc1d0EadBdc1E'}
+INFO - 2024-03-29 03:31:16,939 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': '78F65eD6E84bFDEeFc677E92ebb6D'}
+INFO - 2024-03-29 03:31:16,977 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 03:31:16,977 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 03:33:34,762 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': '47c4bfe257b6A491DEC1Ce97a2e94'}
+INFO - 2024-03-29 03:33:34,763 - readYaml.py:33 -[readYaml:write_yaml_data] - 写入extract文件成功
+INFO - 2024-03-29 03:33:34,765 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': '21B64D26BEc72dFdb1AadCF46eFEc'}
+INFO - 2024-03-29 03:33:34,767 - readYaml.py:33 -[readYaml:write_yaml_data] - 写入extract文件成功
+INFO - 2024-03-29 03:33:34,800 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 03:33:34,800 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 03:33:34,802 - readYaml.py:33 -[readYaml:write_yaml_data] - 写入extract文件成功
+INFO - 2024-03-29 03:38:06,146 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': 'DfD7a94EcCF3bCa5CBD2FF64eD961'}
+INFO - 2024-03-29 03:38:06,150 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': '7F4343fDebfAdc0680B07ccab38bc'}
+INFO - 2024-03-29 03:38:06,185 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 03:38:06,185 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 03:41:15,164 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': 'd74737824bd7F5a2AAfde82accDf9'}
+INFO - 2024-03-29 03:41:15,169 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': 'E0E9f4Ef5B3Ff82e47b2Fa8F9C724'}
+INFO - 2024-03-29 03:41:15,241 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 03:41:15,242 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 03:45:06,479 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': 'Ba317211cee47a01Ceb67f5c521d4'}
+INFO - 2024-03-29 03:45:06,482 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': 'D9aa17a7DC8f6D1e224F064d21BED'}
+INFO - 2024-03-29 03:45:06,506 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 03:45:06,507 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 03:58:11,466 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 03:58:11,466 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 03:58:11,479 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': 'd8d59AAb7D3f2bB92BE3B45c379C0'}
+INFO - 2024-03-29 04:05:48,751 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 04:05:48,752 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': '711cbE8Cf6adfCA0cECB4afD74Dbf'}
+INFO - 2024-03-29 04:05:48,753 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 04:20:53,873 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 04:20:53,874 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 04:20:53,882 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': '7eAADF6A8a33CD96Aed26641A8ED4'}
+INFO - 2024-03-29 04:21:37,049 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 04:21:37,050 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 04:21:37,056 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': 'cc4ff84ffbCfd3c0aAc2BCc6425d4'}
+INFO - 2024-03-29 13:55:02,726 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': 'aedf48E6CF05a3c1f1Fa7864b6DcD'}
+INFO - 2024-03-29 13:55:02,728 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 13:55:02,728 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 13:55:31,160 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': 'f61A75bc57269F0E053cD07a1A8af'}
+INFO - 2024-03-29 13:55:31,163 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 13:55:31,164 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 13:55:53,369 - apiutil.py:165 -[apiutil:extract_data] - json提取:{'token': 'c28a9e8FFa2AdaaDcBFE68f1Abe80'}
+INFO - 2024-03-29 13:55:53,373 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 13:55:53,374 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 14:54:19,560 - apiutil.py:189 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 14:54:19,560 - apiutil.py:195 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-29 14:54:19,567 - apiutil.py:166 -[apiutil:extract_data] - json提取:{'token': 'd5a0aAFaC95c7fCAAd242d7237eCd'}
+INFO - 2024-03-29 14:56:33,641 - apiutil.py:166 -[apiutil:extract_data] - json提取:{'token': '68C1bBeF4bC75de85aFa30FEDeFde'}
+INFO - 2024-03-29 14:56:33,645 - apiutil.py:189 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 14:56:33,645 - apiutil.py:195 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-29 15:12:30,355 - assertion.py:20 -[assertion:contains_assert] - contains断言失败,实际响应状态码status_code:1200不等于预期值200
+ERROR - 2024-03-29 15:12:47,878 - assertion.py:20 -[assertion:contains_assert] - contains断言失败,实际响应状态码1200不等于预期值200
+ERROR - 2024-03-29 15:42:03,207 - assertion.py:32 -[assertion:contains_assert] - contains断言失败,实际结果[None]不等于预期值none
+ERROR - 2024-03-29 15:42:49,953 - assertion.py:32 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+ERROR - 2024-03-29 15:55:11,719 - assertion.py:39 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-29 15:55:11,720 - assertion.py:27 -[assertion:contains_assert] - status_code断言成功
+INFO - 2024-03-29 15:55:11,720 - assertion.py:36 -[assertion:contains_assert] - msg断言成功
+ERROR - 2024-03-29 15:56:21,844 - assertion.py:39 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-29 15:56:21,844 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-29 15:56:21,845 - assertion.py:36 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-03-29 16:15:37,048 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 16:15:37,049 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-29 16:15:37,054 - assertion.py:66 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-29 16:15:37,054 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '72aAB4A792Caccee3EC7Fd6B29eb5'}
+ERROR - 2024-03-29 16:15:37,058 - assertion.py:39 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-29 16:15:37,059 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-29 16:15:37,060 - assertion.py:64 -[assertion:assert_result] - 用例断言通过！！
+ERROR - 2024-03-29 16:15:37,156 - assertion.py:66 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-29 16:18:40,274 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '1A238c3F22107fe83AB3D4FB115eC'}
+ERROR - 2024-03-29 16:18:40,277 - assertion.py:39 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-29 16:18:40,277 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-29 16:18:40,277 - assertion.py:66 -[assertion:assert_result] - 断言测试失败,异常信息:
+INFO - 2024-03-29 16:18:40,277 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+ERROR - 2024-03-29 16:18:40,278 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-29 16:18:40,278 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-29 16:18:40,281 - assertion.py:66 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-29 16:18:40,338 - assertion.py:66 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-29 16:21:15,835 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'Ad3FDA7dEDfC9BEbb7887d21d4B44'}
+ERROR - 2024-03-29 16:21:15,838 - assertion.py:39 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-29 16:21:15,838 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-29 16:21:15,839 - assertion.py:67 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-29 16:21:15,839 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-29 16:21:15,840 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 16:21:15,840 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-29 16:21:15,845 - assertion.py:67 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-29 16:21:15,903 - assertion.py:67 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-29 16:22:34,929 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 16:22:34,929 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-29 16:22:34,933 - assertion.py:68 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-29 16:22:34,934 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '92fcDaE32d453FD4374e1CAB1DD5E'}
+ERROR - 2024-03-29 16:22:34,935 - assertion.py:39 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-29 16:22:34,936 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-29 16:22:34,936 - assertion.py:68 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-29 16:22:34,936 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-29 16:22:34,972 - assertion.py:68 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-29 16:23:13,346 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '5ACE0caFC2D9115Be6fAe38B2AfA4'}
+ERROR - 2024-03-29 16:23:13,349 - assertion.py:39 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-29 16:23:13,350 - assertion.py:27 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-29 16:23:13,350 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+ERROR - 2024-03-29 16:23:13,350 - assertion.py:68 -[assertion:assert_result] - 断言测试失败,异常信息:
+INFO - 2024-03-29 16:23:13,351 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-29 16:23:13,351 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-29 16:23:13,358 - assertion.py:68 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-29 16:23:13,416 - assertion.py:68 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-29 16:26:24,843 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'Cc2Cba745337B10F7a0a53cdd15EF'}
+ERROR - 2024-03-29 16:26:24,845 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-29 16:26:24,845 - assertion.py:29 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-29 16:26:24,846 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-29 16:26:24,846 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-29 16:26:24,847 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-29 16:26:24,847 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-29 16:26:24,851 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-29 16:26:24,895 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable

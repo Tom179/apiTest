@@ -1,0 +1,45 @@
+- baseInfo:
+    api-name: 用户登录
+    url: /dar/user/login
+    method: post
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+      token: ${get_extract_data(token)}
+  testCase:
+    - case_name: 用户名和密码正确
+      data:
+        user_name: test01
+        passwd: admin123
+      validation:
+        - contains: {"error_code": "None"}
+        - contains: {"status_code":200}
+        - eq: {"msg":"登录成功"}
+        - db: select * from books where id="1"
+      extract:
+        token: $.token
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        #json提取器，更为简单方便
+#    - case_name: 用户名和密码错误
+#      data:d
+#        user_name: test02
+#        passwd: 123
+#      validation:
+#        - contains: {"msg":"登录成功"}
+#      extract_list: #同一个接口，不同的用例会输出不同的结果，比如多参
+#        token: $.token

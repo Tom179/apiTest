@@ -1,0 +1,16 @@
+- baseInfo:
+    api-name: 商品详情
+    url: /coupApply/cms/productDetail
+    method: post
+    header:
+      Content-Type: application/json;charset=UTF-8
+  testCase:
+    - case_name: 商品详情1
+      json:
+        pro_id: ${get_extract_data(goodsId,0)} #接口依赖，从别的地方读取,甚至可以选获取规则：所有、随机。。。
+        page: 1
+        sise: 20
+      validation:
+        - contains: {"error_code": "0000"}
+      extract_list: #需要从响应中提取的东西
+#        goodsId: $.goodsList[*].goodsId

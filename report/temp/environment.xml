@@ -1,0 +1,10 @@
+<enviroment>
+    <parameter> <!--环境定制化-->
+        <key>allure版本</key>
+        <value>allure-2.18.1</value>
+    </parameter>
+    <parameter>
+        <key>框架</key>
+        <value>python-pytest</value>
+    </parameter>
+</enviroment>

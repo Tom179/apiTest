@@ -1,0 +1,642 @@
+INFO - 2024-03-30 09:13:13,106 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 09:13:13,107 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 09:13:13,109 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 09:13:13,118 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '37CBeee075bdD38EA1FfbAbAc3c57'}
+ERROR - 2024-03-30 09:13:13,121 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 09:13:13,122 - assertion.py:29 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 09:13:13,122 - assertion.py:67 -[assertion:assert_result] - allflga:1
+ERROR - 2024-03-30 09:13:13,123 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 09:13:13,123 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 09:13:13,204 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 09:28:10,018 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'c39dFbDE8473BcccCCEf03c7168fc'}
+INFO - 2024-03-30 09:28:10,019 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 09:28:10,020 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 09:28:10,020 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 09:28:10,020 - assertion.py:29 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 09:28:10,021 - assertion.py:67 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 09:28:10,021 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 09:28:10,021 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 09:28:10,024 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 09:28:10,076 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 09:29:44,781 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 09:29:44,782 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 09:29:44,783 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 09:29:44,783 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'D46b6E5e4a3adaf14bBfa2b828c56'}
+ERROR - 2024-03-30 09:29:44,785 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 09:29:44,785 - assertion.py:29 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 09:29:44,785 - assertion.py:67 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 09:29:44,785 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 09:29:44,785 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 09:29:44,823 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 09:52:05,595 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 09:52:05,596 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 09:52:05,597 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 09:52:05,597 - assertion.py:29 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 09:52:05,597 - assertion.py:67 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 09:52:05,597 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 09:52:05,597 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 09:52:05,597 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 09:52:05,642 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 09:54:22,578 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'ECd7AB69fEf9B1BeeB7de1D6d393f'}
+ERROR - 2024-03-30 09:54:22,580 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 09:54:22,581 - assertion.py:29 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 09:54:22,581 - assertion.py:67 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 09:54:22,581 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 09:54:22,581 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 09:54:22,596 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 09:54:22,596 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 09:54:22,597 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 09:54:22,627 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 09:54:36,526 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'DDa22F9027d7d641658B9B1e498c5'}
+ERROR - 2024-03-30 09:54:36,528 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 09:54:36,528 - assertion.py:29 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 09:54:36,528 - assertion.py:67 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 09:54:36,528 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 09:54:36,528 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 09:54:36,537 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 09:54:36,538 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 09:54:36,541 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 09:54:36,561 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 09:55:42,301 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'e1fcbfB6648fE7bf5F13E5A6df8fe'}
+ERROR - 2024-03-30 09:55:42,303 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 09:55:42,303 - assertion.py:29 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 09:55:42,303 - assertion.py:67 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 09:55:42,303 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 09:55:42,303 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 09:55:42,313 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 09:55:42,314 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 09:55:42,315 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 09:55:42,351 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 09:57:37,831 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '609dA0f9dbF3ccCFF8ecBCaAaFa8D'}
+ERROR - 2024-03-30 09:57:37,833 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 09:57:37,833 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 09:57:37,833 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-30 09:57:37,833 - assertion.py:29 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 09:57:37,833 - assertion.py:67 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 09:57:37,833 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 09:57:37,833 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 09:57:37,834 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 09:57:37,865 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 09:57:57,841 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '5C3a3bDe4D399347eFeD1486AEFd5'}
+ERROR - 2024-03-30 09:57:57,843 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 09:57:57,843 - assertion.py:29 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 09:57:57,843 - assertion.py:67 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 09:57:57,843 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 09:57:57,844 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 09:57:57,853 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 09:57:57,853 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 09:57:57,854 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 09:57:57,879 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 09:59:29,963 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'E1A7B3b3B2fbaFDB7bB9cdE5F78C0'}
+ERROR - 2024-03-30 09:59:29,966 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 09:59:29,967 - assertion.py:29 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 09:59:29,967 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 09:59:29,967 - assertion.py:67 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 09:59:29,967 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:
+['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 09:59:29,967 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 09:59:29,969 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 09:59:30,001 - assertion.py:71 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 10:01:59,658 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:01:59,658 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:01:59,661 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 10:01:59,663 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '6080a85CB91C3befc10eFC43a9Afb'}
+ERROR - 2024-03-30 10:01:59,664 - assertion.py:40 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 10:01:59,665 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 10:01:59,665 - assertion.py:66 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 10:01:59,665 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 10:01:59,665 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:01:59,696 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 10:03:09,895 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '6df79b0903C2Ff0c5aabABeeC018f'}
+INFO - 2024-03-30 10:03:09,897 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+ERROR - 2024-03-30 10:03:09,897 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:03:09,898 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:03:09,900 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:03:09,946 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:04:55,594 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '3FA3D40D03ec1F78B3ECc4AE1Fa1e'}
+ERROR - 2024-03-30 10:04:55,596 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:04:55,597 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:04:55,597 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:04:55,599 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:04:55,652 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:35:06,091 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '9CAafFbbd9FaE967E4b7D6B0cEc1f'}
+ERROR - 2024-03-30 10:35:06,092 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:35:06,104 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:35:06,105 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:35:06,105 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:35:06,133 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:37:43,797 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'ebE36625eCf340A0FAFEb8300d269'}
+ERROR - 2024-03-30 10:37:43,798 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:37:43,812 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:37:43,812 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:37:43,813 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:37:43,844 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:49:27,116 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '39f3C1EDb41aA38eF774aFf4e7A9c'}
+ERROR - 2024-03-30 10:49:27,117 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:49:27,130 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:49:27,130 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:49:27,131 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:49:27,163 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:51:21,240 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '57127bECEDdbad46e24faF4287d4F'}
+ERROR - 2024-03-30 10:51:21,241 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:51:21,262 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:51:21,263 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:51:21,266 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:51:21,299 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:51:59,530 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'd9A6Acc680A6c6b5AD2d6be7aaB8a'}
+ERROR - 2024-03-30 10:51:59,531 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:51:59,549 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:51:59,549 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:51:59,551 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:51:59,592 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:53:08,156 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '1331D3De01467eCD55f2C1ff7c9AE'}
+ERROR - 2024-03-30 10:53:08,157 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:53:08,179 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:53:08,181 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:53:08,182 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:53:08,214 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:53:18,659 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '391DCCEFb968DbBf910fbc4EE8473'}
+ERROR - 2024-03-30 10:53:18,660 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:53:18,685 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:53:18,685 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:53:18,686 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:53:18,716 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:53:24,856 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'D7d8f2C2eFDdcCb58dE3c2DE86acd'}
+ERROR - 2024-03-30 10:53:24,857 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:53:24,872 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:53:24,872 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:53:24,873 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:53:24,899 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:54:25,413 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'E0BC192a3f9fDC67C0d9ad73cBc0D'}
+ERROR - 2024-03-30 10:54:25,414 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:54:25,430 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:54:25,431 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:54:25,431 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:54:25,452 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:54:31,577 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '81D86bA32aD8b423FbAaF8dDf613A'}
+ERROR - 2024-03-30 10:54:31,578 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:54:31,592 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:54:31,592 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:54:31,593 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:54:31,630 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:54:36,135 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'DaB53cEdE0EB0Be2D7f62c23b5bFC'}
+ERROR - 2024-03-30 10:54:36,136 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:54:36,150 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:54:36,151 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:54:36,151 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:54:36,179 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:54:55,735 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'e5ea5F0fd2c1bD3dd7af4AbD34d30'}
+ERROR - 2024-03-30 10:54:55,737 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:54:55,751 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:54:55,751 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:54:55,752 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:54:55,784 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:55:01,077 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'A12Ca2A8EFE870cdA2dca4F4fEa8f'}
+ERROR - 2024-03-30 10:55:01,079 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:55:01,101 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:55:01,102 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:55:01,104 - apiutil.py:133 -[apiutil:specification_yaml] - 
+ERROR - 2024-03-30 10:55:01,178 - apiutil.py:133 -[apiutil:specification_yaml] - 
+INFO - 2024-03-30 10:55:26,372 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'Fb5CcAf0AF536Ce77FE95e2a1AAEd'}
+ERROR - 2024-03-30 10:55:26,373 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 10:55:26,389 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:55:26,389 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:55:26,390 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 10:55:26,413 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 10:56:20,318 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '4DaBACabAfd40084FD2C240d09cba'}
+ERROR - 2024-03-30 10:56:20,337 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 10:57:28,829 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'eC0deA4bf7a05e38E7E4a44c6f84F'}
+ERROR - 2024-03-30 10:57:28,830 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 10:57:28,846 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:57:28,846 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:57:28,848 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 10:57:28,884 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 10:58:31,577 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'b3ACAAFFDeD8AF3BE3C28dda63Ee3'}
+ERROR - 2024-03-30 10:58:31,578 - assertion.py:73 -[assertion:assert_result] - 断言测试失败,异常信息:
+INFO - 2024-03-30 10:58:31,598 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 10:58:31,598 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 10:58:31,599 - assertion.py:73 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 10:58:31,636 - assertion.py:73 -[assertion:assert_result] - 断言测试失败,异常信息:
+INFO - 2024-03-30 11:01:06,957 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'ac4F13cac04db7CFb9eFb21794aFf'}
+ERROR - 2024-03-30 11:01:06,958 - assertion.py:40 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 11:01:06,958 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 11:01:06,958 - assertion.py:68 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 11:01:06,958 - assertion.py:72 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 11:01:06,958 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 11:01:06,970 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 11:01:06,970 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 11:01:06,972 - assertion.py:72 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 11:01:07,001 - assertion.py:72 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 11:01:34,177 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'AAA0e8F0a0715D7CFaB8fAdf5d20d'}
+ERROR - 2024-03-30 11:01:34,179 - assertion.py:40 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 11:01:34,179 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 11:01:34,179 - assertion.py:68 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 11:01:34,179 - assertion.py:72 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 11:01:34,180 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 11:01:34,199 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 11:01:34,199 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 11:01:34,201 - assertion.py:72 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 11:01:34,228 - assertion.py:72 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 11:03:50,726 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '0d76FeE663ecFF2be1f1B08Aa9F44'}
+ERROR - 2024-03-30 11:03:50,727 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 11:03:50,727 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 11:03:50,727 - assertion.py:65 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 11:03:50,727 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 11:03:50,727 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 11:03:50,739 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 11:03:50,740 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 11:03:50,741 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 11:03:50,780 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+INFO - 2024-03-30 11:08:26,715 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '7CCDe2C2CB6830acdecdd3cDE5C2D'}
+ERROR - 2024-03-30 11:08:26,716 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 11:08:26,717 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 11:08:26,717 - assertion.py:65 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 11:08:26,717 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 11:08:26,730 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 11:08:26,730 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 11:08:26,732 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 11:08:26,757 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 11:09:20,883 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '28ECEa1E0cEC94cd08Dbc2B84CFFE'}
+ERROR - 2024-03-30 11:09:20,884 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:
+INFO - 2024-03-30 11:09:20,901 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 11:09:20,901 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 11:09:20,902 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 11:09:20,934 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:
+INFO - 2024-03-30 11:11:35,715 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '14C5ef3e9E8ce2c2dFC7Ef59dD3B6'}
+ERROR - 2024-03-30 11:11:35,716 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 11:11:35,716 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 11:11:35,716 - assertion.py:64 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 11:11:35,716 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 11:11:35,733 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 11:11:35,734 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 11:11:35,735 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 11:11:35,763 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 11:14:14,502 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '9eFdA408eC5d8675DBA1e41c3e56E'}
+ERROR - 2024-03-30 11:14:14,503 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 11:14:14,504 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 11:14:14,504 - assertion.py:64 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 11:14:14,504 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 11:14:14,517 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 11:14:14,517 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 11:14:14,518 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 11:14:14,556 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 11:19:55,814 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'f6Fbb5d9da115AA3df48b0f7400f8'}
+ERROR - 2024-03-30 11:19:55,814 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 11:19:55,829 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 11:19:55,829 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 11:19:55,830 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 11:19:55,859 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 11:23:28,472 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'A1a3035872E2aB86B4FbF3c25E4F4'}
+ERROR - 2024-03-30 11:23:28,473 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 11:23:28,491 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 11:23:28,491 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 11:23:28,492 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 11:23:28,512 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 12:38:04,978 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'c25f6eBE9E5e25BeCFcd03f87BebD'}
+ERROR - 2024-03-30 12:38:04,979 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 12:38:04,997 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 12:38:04,998 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 12:38:04,999 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 12:38:05,021 - apiutil.py:133 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 12:57:20,412 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'E882FfCBCB3864533Ccc00aaAc0B1'}
+ERROR - 2024-03-30 12:57:20,414 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'Assertion' object has no attribute 'assert_result'
+INFO - 2024-03-30 12:57:20,441 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 12:57:20,442 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 12:57:20,443 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'Assertion' object has no attribute 'assert_result'
+ERROR - 2024-03-30 12:57:20,484 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'Assertion' object has no attribute 'assert_result'
+INFO - 2024-03-30 13:16:22,574 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': '2DD9da0f1FCd2918aeE8F7955F859'}
+ERROR - 2024-03-30 13:16:22,575 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'Assertion' object has no attribute 'assert_result'
+INFO - 2024-03-30 13:16:22,603 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:16:22,603 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:16:22,604 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'Assertion' object has no attribute 'assert_result'
+ERROR - 2024-03-30 13:16:22,643 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'Assertion' object has no attribute 'assert_result'
+INFO - 2024-03-30 13:17:04,218 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'F7a45e973aE1Aa2b4b2DEEE89DfED'}
+ERROR - 2024-03-30 13:17:04,219 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 13:17:04,220 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 13:17:04,220 - assertion.py:64 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 13:17:04,221 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 13:17:04,221 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:17:04,241 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:17:04,241 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:17:04,242 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:17:04,242 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 13:17:04,274 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:17:04,274 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 13:17:48,327 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'ccC5E6DCFB56dF72DFa885fEC6BAb'}
+ERROR - 2024-03-30 13:17:48,328 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 13:17:48,328 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:17:48,343 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:17:48,343 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:17:48,344 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 13:17:48,344 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 13:17:48,373 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 13:17:48,373 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:27:03,749 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': '4CD2B0e76a6ff6C1bAaFB3e7e1FB6'}
+ERROR - 2024-03-30 13:27:03,753 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 13:27:03,753 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 13:27:03,753 - assertion.py:64 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 13:27:03,753 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 13:27:03,753 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:27:03,782 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:27:03,782 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:27:03,784 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:27:03,784 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 13:27:03,837 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:27:03,837 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 13:28:52,170 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': '8ccCaBCd4dC3f0A0EF72CDb6baBdb'}
+ERROR - 2024-03-30 13:28:52,171 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 13:28:52,171 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 13:28:52,171 - assertion.py:64 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 13:28:52,171 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 13:28:52,171 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:28:52,186 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:28:52,186 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:28:52,188 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:28:52,188 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 13:28:52,213 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:28:52,214 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 13:29:15,128 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'e1eFa1b3c44116cC6d08688bBca7a'}
+ERROR - 2024-03-30 13:29:15,129 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 13:29:15,129 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 13:29:15,130 - assertion.py:64 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 13:29:15,130 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 13:29:15,130 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:29:15,145 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:29:15,146 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:29:15,147 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:29:15,148 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 13:29:15,175 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:29:15,175 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 13:37:19,953 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': '32FbDA4e2D4Dea55b57D593BEBDa7'}
+ERROR - 2024-03-30 13:37:19,954 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 13:37:19,955 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 13:37:19,955 - assertion.py:64 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 13:37:19,955 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 13:37:19,955 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:37:19,967 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:37:19,968 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:37:19,969 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:37:19,969 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 13:37:19,992 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:37:19,992 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 13:37:27,870 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'F9501bEcEFb59F43c3893eFA6bE8a'}
+ERROR - 2024-03-30 13:37:27,871 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 13:37:27,871 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 13:37:27,871 - assertion.py:64 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 13:37:27,871 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 13:37:27,871 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:37:27,885 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:37:27,886 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:37:27,888 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:37:27,888 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 13:37:27,910 - assertion.py:69 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:37:27,910 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 13:41:32,189 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'db56eabe7b667CfEC8a766dbe5aD2'}
+ERROR - 2024-03-30 13:41:32,190 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 13:41:32,191 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 13:41:32,191 - assertion.py:64 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 13:41:32,191 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 13:41:32,191 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:41:32,204 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:41:32,204 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:41:32,206 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:41:32,206 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 13:41:32,232 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:41:32,232 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 13:43:43,349 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': '5E7acdB85FBc014EdD1177eeD7ad4'}
+ERROR - 2024-03-30 13:43:43,350 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 13:43:43,350 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 13:43:43,350 - assertion.py:64 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 13:43:43,350 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 13:43:43,350 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:43:43,364 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:43:43,364 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:43:43,365 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:43:43,365 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 13:43:43,388 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:43:43,388 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 13:44:52,083 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': '0EEadA6FBaD18Cb34CfdddbbCcD15'}
+ERROR - 2024-03-30 13:44:52,086 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 13:44:52,086 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 13:44:52,087 - assertion.py:64 -[assertion:assert_result] - all_flag:1
+ERROR - 2024-03-30 13:44:52,087 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 13:44:52,087 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:44:52,102 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:44:52,102 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:44:52,103 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:44:52,104 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 13:44:52,125 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:44:52,125 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 13:50:33,843 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'ae7e55fd24005ebF6F0A8F25d3525'}
+ERROR - 2024-03-30 13:50:33,844 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 13:50:33,844 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 13:50:33,844 - assertion.py:78 -[assertion:assert_result] - 测试失败
+ERROR - 2024-03-30 13:50:33,844 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:50:33,860 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:50:33,860 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:50:33,862 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:50:33,862 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 13:50:33,885 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:50:33,885 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 13:51:42,311 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': '28Ad4B365EdC6a9ad7e65fFcc2FEB'}
+ERROR - 2024-03-30 13:51:42,313 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 13:51:42,313 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 13:51:42,313 - assertion.py:77 -[assertion:assert_result] - 测试失败
+ERROR - 2024-03-30 13:51:42,313 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:51:42,326 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:51:42,327 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:51:42,328 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:51:42,329 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 13:51:42,355 - assertion.py:70 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 13:51:42,356 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 13:55:49,204 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'D671a1E602256D792E69B7bdAFCBa'}
+ERROR - 2024-03-30 13:55:49,206 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 13:55:49,206 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 13:55:49,206 - assertion.py:67 -[assertion:assert_result] - 测试失败
+ERROR - 2024-03-30 13:55:49,206 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 13:55:49,221 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 13:55:49,221 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 13:55:49,222 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 13:55:49,244 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 14:00:26,568 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'FaC8698dAe654a14CFFE48d3dAEe2'}
+ERROR - 2024-03-30 14:00:26,569 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 14:00:26,569 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 14:00:26,569 - assertion.py:66 -[assertion:assert_result] - 测试失败
+ERROR - 2024-03-30 14:00:26,569 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:00:26,584 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:00:26,584 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:00:26,585 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 14:00:26,608 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 14:08:01,560 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': '2bB4DA7BC100Cfa2C6FcDffA5DebE'}
+ERROR - 2024-03-30 14:08:01,562 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 14:08:01,562 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 14:08:01,562 - assertion.py:66 -[assertion:assert_result] - 测试失败
+ERROR - 2024-03-30 14:08:01,562 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:08:01,577 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:08:01,577 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:08:01,578 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 14:08:01,607 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 14:09:31,003 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': '295547acD9Aa0fabbaACFFcf4A813'}
+ERROR - 2024-03-30 14:09:31,004 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 14:09:31,004 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 14:09:31,004 - assertion.py:67 -[assertion:assert_result] - 测试失败
+ERROR - 2024-03-30 14:09:31,004 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:09:31,017 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:09:31,017 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:09:31,018 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 14:09:31,039 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 14:09:34,509 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'Bce72fAfFf7B759dC65b8E97F2b37'}
+ERROR - 2024-03-30 14:09:34,511 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 14:09:34,511 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 14:09:34,511 - assertion.py:67 -[assertion:assert_result] - 测试失败
+ERROR - 2024-03-30 14:09:34,511 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:09:34,526 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:09:34,526 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:09:34,527 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 14:09:34,548 - apiutil.py:132 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 14:13:20,585 - apiutil.py:171 -[apiutil:extract_data] - json提取:{'token': '626821664AaF6BB2C0b4C73AFFCcA'}
+ERROR - 2024-03-30 14:13:20,587 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 14:13:20,587 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 14:13:20,587 - assertion.py:67 -[assertion:assert_result] - 测试失败
+ERROR - 2024-03-30 14:13:20,587 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:13:20,601 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:13:20,601 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:13:20,603 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 14:13:20,627 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 14:13:41,531 - apiutil.py:171 -[apiutil:extract_data] - json提取:{'token': 'E5E0EbE732A27aCBbafB5609e507b'}
+ERROR - 2024-03-30 14:13:41,532 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 14:13:41,533 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 14:13:41,533 - assertion.py:67 -[assertion:assert_result] - 测试失败
+ERROR - 2024-03-30 14:13:41,533 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:13:41,546 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:13:41,546 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:13:41,547 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 14:13:41,571 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 14:17:14,681 - apiutil.py:171 -[apiutil:extract_data] - json提取:{'token': 'b1b4d57a75DA30dec2AaE1ED677db'}
+ERROR - 2024-03-30 14:17:14,683 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 14:17:14,683 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 14:17:14,683 - assertion.py:66 -[assertion:assert_result] - 测试失败
+ERROR - 2024-03-30 14:17:14,683 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:17:14,697 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:17:14,697 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:17:14,698 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 14:17:14,721 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 14:17:37,185 - apiutil.py:171 -[apiutil:extract_data] - json提取:{'token': '408f391fFf7D8BBAf89e3b85cd40b'}
+ERROR - 2024-03-30 14:17:37,186 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:17:37,198 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:17:37,198 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:17:37,199 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 14:17:37,219 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:18:38,801 - apiutil.py:171 -[apiutil:extract_data] - json提取:{'token': 'CA3a9E8c67608Df4b33CD9fEEF7db'}
+ERROR - 2024-03-30 14:18:38,802 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:18:38,817 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:18:38,817 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:18:38,818 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 14:18:38,838 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:19:13,814 - apiutil.py:171 -[apiutil:extract_data] - json提取:{'token': 'FABDB80DAafD4c88bB5f51799ffe5'}
+ERROR - 2024-03-30 14:19:13,815 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 14:19:13,815 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 14:19:13,815 - assertion.py:66 -[assertion:assert_result] - 测试失败
+ERROR - 2024-03-30 14:19:13,816 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:19:13,832 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:19:13,833 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:19:13,834 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 14:19:13,855 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 14:19:35,523 - apiutil.py:172 -[apiutil:extract_data] - json提取:{'token': 'Bfbd19F11F691CDfDba6Da9aE4AAB'}
+ERROR - 2024-03-30 14:19:35,524 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:19:35,537 - apiutil.py:195 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:19:35,538 - apiutil.py:201 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:19:35,538 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 14:19:35,560 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 14:20:30,286 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 14:20:30,293 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 14:20:30,390 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 14:21:08,886 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 14:21:08,891 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 14:21:08,897 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 14:22:27,547 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 14:22:27,554 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+ERROR - 2024-03-30 14:22:27,562 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:25:16,971 - apiutil.py:171 -[apiutil:extract_data] - json提取:{'token': '82FB232cabD62E3dc03871be6F74C'}
+ERROR - 2024-03-30 14:25:16,972 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 14:25:16,972 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 14:25:16,973 - assertion.py:66 -[assertion:assert_result] - 测试失败
+INFO - 2024-03-30 14:25:17,026 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:25:17,026 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-30 14:43:54,682 - apiutil.py:172 -[apiutil:extract_data] - json提取:{'token': 'd49AB453af1c8f56E3f1988b9bbf8'}
+ERROR - 2024-03-30 14:43:54,685 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 14:43:54,685 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 14:43:54,685 - assertion.py:72 -[assertion:assert_result] - 测试失败
+ERROR - 2024-03-30 14:43:54,685 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:43:54,703 - apiutil.py:195 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:43:54,703 - apiutil.py:201 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:43:54,705 - assertion.py:65 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 14:43:54,705 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 14:43:54,740 - assertion.py:65 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 14:43:54,741 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 14:51:18,300 - apiutil.py:172 -[apiutil:extract_data] - json提取:{'token': 'B9A6C8c1240cfdb0E7b0DbAcE2b33'}
+ERROR - 2024-03-30 14:51:18,301 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 14:51:18,301 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 14:51:18,301 - assertion.py:66 -[assertion:assert_result] - 断言测试失败,异常信息:
+ERROR - 2024-03-30 14:51:18,301 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常assert 断言失败
+INFO - 2024-03-30 14:51:18,316 - apiutil.py:195 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:51:18,317 - apiutil.py:201 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:51:18,318 - assertion.py:66 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 14:51:18,318 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常assert 断言失败
+ERROR - 2024-03-30 14:51:18,341 - assertion.py:66 -[assertion:assert_result] - 断言测试失败,异常信息:'bool' object is not subscriptable
+ERROR - 2024-03-30 14:51:18,341 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常assert 断言失败
+INFO - 2024-03-30 14:53:34,079 - apiutil.py:172 -[apiutil:extract_data] - json提取:{'token': 'EE94f14F0C6bbdf7B21fBFddc5623'}
+ERROR - 2024-03-30 14:53:34,080 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 14:53:34,081 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 14:53:34,081 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 14:53:34,096 - apiutil.py:195 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 14:53:34,097 - apiutil.py:201 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 14:53:34,098 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 14:53:34,126 - apiutil.py:135 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 15:21:40,913 - apiutil.py:171 -[apiutil:extract_data] - json提取:{'token': 'A037dccaBa21d0bD2EA9166585fD3'}
+ERROR - 2024-03-30 15:21:40,915 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 15:21:40,915 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+ERROR - 2024-03-30 15:21:40,915 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常
+INFO - 2024-03-30 15:21:40,934 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 15:21:40,934 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+ERROR - 2024-03-30 15:21:40,935 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+ERROR - 2024-03-30 15:21:40,968 - apiutil.py:134 -[apiutil:specification_yaml] - 抛出异常'bool' object is not subscriptable
+INFO - 2024-03-30 15:22:25,439 - apiutil.py:171 -[apiutil:extract_data] - json提取:{'token': '42D41BAc913a9BFd06aD340d52fB4'}
+ERROR - 2024-03-30 15:22:25,441 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 15:22:25,441 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 15:22:25,498 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 15:22:25,498 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-30 16:00:19,815 - apiutil.py:171 -[apiutil:extract_data] - json提取:{'token': 'eB12Fdbaf47eDA020B37E3f974DdB'}
+ERROR - 2024-03-30 16:00:19,816 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 16:00:19,817 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 16:00:19,877 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 16:00:19,877 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-30 17:14:06,701 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '623aF3fcb818Fb2c48D8c6cdF30Ec'}
+ERROR - 2024-03-30 17:14:06,702 - assertion.py:37 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 17:14:06,703 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 17:14:06,766 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 17:14:06,766 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-30 17:17:34,728 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'b4fc8BA770B34B8e6EEfeDfff41e2'}
+ERROR - 2024-03-30 17:17:34,731 - assertion.py:38 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 17:17:34,731 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 17:17:34,801 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 17:17:34,802 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-30 17:21:02,465 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'C474120Fb86AAFa9f2225ddcBeD52'}
+ERROR - 2024-03-30 17:21:02,466 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 17:21:02,467 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 17:21:02,528 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 17:21:02,528 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-30 17:21:02,529 - assertion.py:38 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-30 21:06:02,283 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': 'DeA68Bedd47d57ceBb4bD9F44BE92'}
+ERROR - 2024-03-30 21:06:02,284 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 21:06:02,284 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 21:06:02,353 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 21:06:02,354 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-30 21:06:02,355 - assertion.py:38 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-30 21:31:13,053 - apiutil.py:168 -[apiutil:extract_data] - json提取:{'token': '81DeF87F779bf45e0219e2fF19951'}
+ERROR - 2024-03-30 21:31:13,055 - assertion.py:41 -[assertion:contains_assert] - contains断言失败,实际结果[None]不包含预期值none
+INFO - 2024-03-30 21:31:13,056 - assertion.py:25 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-03-30 21:31:13,120 - apiutil.py:191 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-03-30 21:31:13,121 - apiutil.py:197 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-03-30 21:31:13,123 - assertion.py:38 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-03-30 21:31:13,155 - assertion.py:38 -[assertion:contains_assert] - error_code包含断言成功

@@ -1,0 +1,42 @@
+ERROR - 2024-03-28 03:03:32,467 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CD0F16AFC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+ERROR - 2024-03-28 03:03:32,467 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6214B9148>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+ERROR - 2024-03-28 03:24:37,773 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000260B2D5C0C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+ERROR - 2024-03-28 03:24:37,789 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001603BAFC108>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+ERROR - 2024-03-28 03:25:01,601 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027C2426AD88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+ERROR - 2024-03-28 03:27:25,205 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022B0A6DE908>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+ERROR - 2024-03-28 03:29:38,492 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024870090BC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+ERROR - 2024-03-28 03:31:07,369 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6F7775FC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+ERROR - 2024-03-28 03:31:07,369 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002CB9F87BCC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+ERROR - 2024-03-28 03:33:22,290 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FB58AFB1C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+ERROR - 2024-03-28 03:33:22,290 - apiutil.py:126 -[apiutil:specification_yaml] - HTTPConnectionPool(host='127.0.0.1', port=8787): Max retries exceeded with url: /dar/user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001578EB9B088>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+INFO - 2024-03-28 03:38:26,879 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '17C3D1eFb70B6da71BeEb9cDcCEDf'}
+INFO - 2024-03-28 03:38:26,882 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '28a954CeD4f27A5114bf5eFF71CC7'}
+INFO - 2024-03-28 03:38:42,337 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '9d3FafB25BdB8E4CD6EED276787e0'}
+INFO - 2024-03-28 03:38:42,340 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '625dAA972fb8f9eadA9cE4Effd10f'}
+INFO - 2024-03-28 03:48:30,500 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '0E6Ab61Db8EBF80749D3E9278144b'}
+INFO - 2024-03-28 03:48:30,506 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'b1F5Ccf7C14090Ebf6f2fadD4CaEe'}
+INFO - 2024-03-28 03:50:16,062 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'e8C7F91A6d61DAD9dF8beCd035f4A'}
+INFO - 2024-03-28 03:50:16,064 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'C2bEEDe47B42BD63dfbd71E9B5fEf'}
+INFO - 2024-03-28 03:54:18,444 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '01C66810E0FE3C32dcCace9CeEdEC'}
+INFO - 2024-03-28 03:54:18,447 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'b8bb1F6f6bAFf0CFb28CceDbAFd13'}
+INFO - 2024-03-28 03:55:18,889 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'BBfd4a94c312aB74dBBEE1bfD3Cb3'}
+INFO - 2024-03-28 03:55:18,893 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'aC1604Dfe9Bfd6b3081cFeCf881Bb'}
+INFO - 2024-03-28 03:55:49,964 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '8EA2B36c0E032daAcE4F7eBdee33f'}
+INFO - 2024-03-28 03:55:49,967 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'aAbe9bd91b611ABB5cE8B152f91d9'}
+INFO - 2024-03-28 03:57:47,118 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '49FF86a8269Ea4EbACef0bddf552c'}
+INFO - 2024-03-28 03:57:47,121 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'A22B92eA19E8C4D6be246A49BaEfB'}
+INFO - 2024-03-28 03:59:22,582 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'e6c9f342D7E0eafC4783B05aB9dcd'}
+INFO - 2024-03-28 03:59:22,585 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '41cB2d89B6b1aa3a9BEecB39d642a'}
+INFO - 2024-03-28 04:00:58,701 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '0aB98C35dF496cE9C8e8b4eE14dac'}
+INFO - 2024-03-28 04:00:58,705 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '402d11D5afb44A6ACb66Bf31Cf3Ed'}
+INFO - 2024-03-28 04:04:50,256 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'DEfe217cE35287a4dBd2d2afbdEE3'}
+INFO - 2024-03-28 04:04:50,260 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'Feee22cEa13dAEaEc8762FDF6A8E4'}
+INFO - 2024-03-28 04:04:50,295 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '7100aC85b3ae0a469aacD0D53Eab4'}
+INFO - 2024-03-28 04:06:17,416 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '2eDC4Cfd3aBd07CCaC8bbdCF16d41'}
+INFO - 2024-03-28 04:06:17,419 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '05a5b7aE4eCd3A83683ecc7Ed5A47'}
+INFO - 2024-03-28 04:08:14,877 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'fa1b2bEE54e2BFFbaA6C2cfe8B0FA'}
+INFO - 2024-03-28 04:08:14,883 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'E03dcD0EBa1B0EA8Df8F9Ca7AE86B'}
+ERROR - 2024-03-28 04:08:14,942 - apiutil.py:164 -[apiutil:extract_data] - 接口返回值异常
+INFO - 2024-03-28 04:13:49,608 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': '5aca2B3d51D8446bB8DdAE8601e4c'}
+INFO - 2024-03-28 04:13:49,615 - apiutil.py:161 -[apiutil:extract_data] - json提取:{'token': 'cfBdF3a2f632da431bFa6fAa8a8fA'}
+ERROR - 2024-03-28 04:13:49,637 - apiutil.py:126 -[apiutil:specification_yaml] - 'data'

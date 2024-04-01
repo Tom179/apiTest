@@ -1,0 +1,6 @@
+INFO - 2024-03-21 16:30:44,231 - test_login.py:54 -[test_login:test_LoginParam] - http://127.0.0.1:8787/dar/user/login
+INFO - 2024-03-21 16:30:44,232 - test_login.py:55 -[test_login:test_LoginParam] - post请求,参数{'user_name': 'test01', 'passwd': 'admin123'}
+INFO - 2024-03-21 16:30:44,240 - test_login.py:59 -[test_login:test_LoginParam] - 接口响应的json为{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': '85cAd985eebbF1ec1E25C0E30F111', 'userId': '5505802627049103152'}
+INFO - 2024-03-21 16:41:10,167 - test_login.py:54 -[test_login:test_LoginParam] - http://127.0.0.1:8787/dar/user/login
+INFO - 2024-03-21 16:41:10,168 - test_login.py:55 -[test_login:test_LoginParam] - post请求,参数{'user_name': 'test01', 'passwd': 'admin123'}
+INFO - 2024-03-21 16:41:10,178 - test_login.py:59 -[test_login:test_LoginParam] - 接口响应的json为{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '4140913758110176843', 'token': 'B5ABFbE3E85A0C5787357b339A4c0', 'userId': '5505802627049103152'}
