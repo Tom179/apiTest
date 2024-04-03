@@ -13,4 +13,4 @@
       validation:
         - contains: {"error_code": "0000"}
       extract_list: #需要从响应中提取的东西
-#        goodsId: $.goodsList[*].goodsId
+        goodsId: $.goodsList[*].goodsId

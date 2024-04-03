@@ -1,3 +1,0 @@
-INFO     common.recordlog:apiutil.py:193 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
-INFO     common.recordlog:apiutil.py:199 json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
-INFO     common.recordlog:assertion.py:46 error_code包含断言成功

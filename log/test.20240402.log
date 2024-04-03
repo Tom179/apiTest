@@ -1,0 +1,138 @@
+INFO - 2024-04-02 20:47:42,641 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-02 20:47:42,642 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-02 20:47:42,644 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:47:42,680 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:47:45,738 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'fb96E7bcce3FCd9e0ebf1BbF233cE'}
+INFO - 2024-04-02 20:47:45,742 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:47:45,743 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-02 20:47:45,744 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-02 20:47:45,846 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-02 20:47:45,881 - assertion.py:116 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-02 20:47:45,901 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-02 20:47:45,901 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-02 20:47:45,903 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:47:45,934 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:48:52,845 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'C0eE44c5cD8EBA5Cad2cfcDD0df9c'}
+INFO - 2024-04-02 20:48:52,847 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:48:52,849 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-02 20:48:52,850 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-02 20:48:52,869 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-02 20:48:52,873 - assertion.py:116 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-02 20:48:52,895 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-02 20:48:52,897 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-02 20:48:52,900 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:48:52,937 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:53:24,754 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '0eD975c95F9f3C5e72f0aE2F6aBBf'}
+INFO - 2024-04-02 20:53:24,755 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:53:24,757 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-02 20:53:24,758 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-02 20:53:24,774 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-02 20:53:24,797 - assertion.py:116 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-02 20:53:24,804 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-02 20:53:24,805 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+ERROR - 2024-04-02 20:53:24,807 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果登录失败,用户名或密码错误不包含预期值登录成功
+INFO - 2024-04-02 20:53:24,930 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-02 20:53:24,930 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-02 20:53:24,931 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:53:24,963 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:55:20,157 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '0900bAFedb90CFf8bDbe6eDef47ee'}
+INFO - 2024-04-02 20:55:20,158 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:55:20,159 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-02 20:55:20,159 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-02 20:55:20,171 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-02 20:55:20,174 - assertion.py:116 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-02 20:55:20,181 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-02 20:55:20,181 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+ERROR - 2024-04-02 20:55:20,183 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果登录失败,用户名或密码错误不包含预期值登录成功
+INFO - 2024-04-02 20:55:20,288 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-02 20:55:20,288 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-02 20:55:20,290 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 20:55:20,328 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 21:19:58,103 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'cCE0D3FE42E1ECB5Fd418da43ee4B'}
+INFO - 2024-04-02 21:19:58,106 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 21:19:58,107 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-02 21:19:58,109 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-02 21:19:58,125 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-02 21:19:58,131 - assertion.py:116 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-02 21:19:58,146 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-02 21:19:58,146 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+ERROR - 2024-04-02 21:19:58,148 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果登录失败,用户名或密码错误不包含预期值登录成功
+INFO - 2024-04-02 21:19:58,319 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'DCb7aDdaDa7fDa4ca1C5fcc22DE42'}
+INFO - 2024-04-02 21:19:58,321 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 21:19:58,322 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-02 21:19:58,323 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-02 21:19:58,345 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-02 21:19:58,348 - assertion.py:116 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-02 21:19:58,360 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-02 21:19:58,360 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+ERROR - 2024-04-02 21:19:58,363 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果登录失败,用户名或密码错误不包含预期值登录成功
+INFO - 2024-04-02 21:19:58,414 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-02 21:19:58,415 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-02 21:19:58,417 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 21:19:58,466 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 21:28:23,852 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '8C35Bd6bbab75A2aa8bEeEb35eeAF'}
+INFO - 2024-04-02 21:28:23,854 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 21:28:23,855 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-02 21:28:23,856 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-02 21:28:23,869 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-02 21:28:23,874 - assertion.py:116 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-02 21:28:23,886 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-02 21:28:23,886 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-02 21:28:23,888 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-02 21:28:23,912 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': '62EA2FfD9Ab2C22Af9fbbC0E34DF7'}
+INFO - 2024-04-02 21:28:23,914 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 21:28:23,915 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-02 21:28:23,916 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-02 21:28:23,937 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-02 21:28:23,939 - assertion.py:116 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-02 21:28:23,951 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-02 21:28:23,952 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-02 21:28:23,953 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-02 21:28:23,985 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-02 21:28:23,985 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-02 21:28:23,987 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 21:28:24,040 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 22:08:23,117 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'dd6dce14ede90AF4c01Ddb3Bf3EEC'}
+INFO - 2024-04-02 22:08:23,120 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 22:08:23,125 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-02 22:08:23,126 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-02 22:08:23,144 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-02 22:08:23,156 - assertion.py:116 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-02 22:08:23,165 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-02 22:08:23,165 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-02 22:08:23,169 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-02 22:08:23,191 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'F7FeD1B70736c12f97C859a6cA95d'}
+INFO - 2024-04-02 22:08:23,194 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 22:08:23,195 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-02 22:08:23,199 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-02 22:08:23,203 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-02 22:08:23,205 - assertion.py:116 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-02 22:08:23,217 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-02 22:08:23,219 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-02 22:08:23,220 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-02 22:08:23,240 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-02 22:08:23,241 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-02 22:08:23,242 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 22:08:23,275 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 22:08:43,982 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': '7B2BFFC6e4BBa5Df3aAe7EaAEd011'}
+INFO - 2024-04-02 22:08:43,985 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 22:08:43,988 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-02 22:08:43,990 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-02 22:08:43,993 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-02 22:08:43,995 - assertion.py:116 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-02 22:08:44,007 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-02 22:08:44,007 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-02 22:08:44,009 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-02 22:08:44,030 - apiutil.py:169 -[apiutil:extract_data] - json提取:{'token': 'A1FD7eE07CED3EAbE3Bec9c82Cd9C'}
+INFO - 2024-04-02 22:08:44,031 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 22:08:44,032 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-02 22:08:44,034 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-02 22:08:44,041 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-02 22:08:44,042 - assertion.py:116 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-02 22:08:44,049 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-02 22:08:44,050 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-02 22:08:44,054 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-02 22:08:44,078 - apiutil.py:192 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-02 22:08:44,078 - apiutil.py:198 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-02 22:08:44,081 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-02 22:08:44,123 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功

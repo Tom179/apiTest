@@ -1,7 +1,12 @@
-token: 7544138B4c4F1Bd118C8c9DfaffAF
+Cookie:
+  access_token_cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjE1MDQzNywianRpIjoiYzljODNlMjktNmM0MS00NGJmLWFlNjMtMTk5MGM5MzVkYWJhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjE1MDQzNywiZXhwIjoxNzEyMTUxMzM3fQ.cvS-gFXS6WffH-Oodi8VYQ-YFCzLPkTeFWqTkWjRqzU
+token: ECB73a46a6d4beBfeD4aCF6CaB032
+token:
+- null
 goodsId:
 - '18382788819'
 - '33809635011'
 - '56996760797'
 - '82193785267'
 - '74190550836'
+goodsId: 未提取到数据，该接口返回结果可能为空

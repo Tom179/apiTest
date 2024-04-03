@@ -32,8 +32,8 @@ class Assertion:
                 print(f"从真实resp中判断{assert_key}")
                 resp_list = jsonpath.jsonpath(response, f"$..{assert_key}")  # 实际响应的值
                 # resp_list = jsonpath.jsonpath(response, "$..%s" % assert_key)  # 实际响应的值
-                # print("resp_list", resp_list)
-                # print("resp_list", resp_list[0])
+                print("resp_list为", resp_list)
+                print("resp_list[0]为", resp_list[0])
                 # 全部转为字符串
                 if isinstance(resp_list[0], str):
                     resp_list = "".join(resp_list)
@@ -89,9 +89,13 @@ class Assertion:
         :param status_code:实际状态码
         :return:
         """
+        print("获取Expected:", expected)
+
         all_flag = 0  # 断言成功标识
         for oneExpected in expected:  # 拿到yaml表中每一个断言模式：contains、eq等
-            for assType, value in oneExpected.items():  # 拿到断言模式中具体的键值
+            print("exptected的类型为",type(expected))
+            print("oneExpected的值为:", oneExpected)
+            for assType, value in oneExpected.items():  # 拿到断言模式中具体的键值   ##oneExpected有问题！
                 if assType == "contains":
                     flag = self.contains_assert(value, response, status_code)
                     all_flag += flag

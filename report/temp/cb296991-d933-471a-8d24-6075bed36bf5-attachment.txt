@@ -1,6 +1,0 @@
-INFO     common.recordlog:apiutil.py:170 json提取:{'token': '7544138B4c4F1Bd118C8c9DfaffAF'}
-INFO     common.recordlog:assertion.py:46 error_code包含断言成功
-INFO     common.recordlog:assertion.py:28 status_code包含断言成功
-INFO     common.recordlog:assertion.py:62 相等断言成功
-INFO     common.recordlog:connect.py:22 成功连mysql host:127.0.0.1 port3306 dbdemo
-INFO     common.recordlog:assertion.py:116 数据库断言成功

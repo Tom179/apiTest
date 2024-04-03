@@ -34,8 +34,8 @@ class DebufTalk:
     def md5_params(self, params):
         return "md5加密" + str(params)
 
-
-if __name__ == '__main__':
-    debug = DebufTalk()
-    print(debug.get_extract_data("token", -2))
-    print(debug.get_extract_data("goodsId", 0))
+#
+# if __name__ == '__main__':
+#     debug = DebufTalk()
+#     print(debug.get_extract_data("token", -2))
+#     print(debug.get_extract_data("goodsId", 0))

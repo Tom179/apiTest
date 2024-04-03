@@ -35,6 +35,9 @@ class OprateConfig:  # 读取ini配置文件
     def get_mysql(self, option):
         return self.get_section_for_data("MYSQL", option)
 
+    def get_jenkins(self, option):
+        return self.get_section_for_data("JENKINS", option)
+
 
 if __name__ == '__main__':
     op = OprateConfig()

@@ -1,0 +1,1 @@
+[31m[1mERROR   [0m common.recordlog:assertion.py:49 contains断言失败,实际结果未携带cookie信息不包含预期值操作成功

@@ -1,0 +1,4 @@
+[32mINFO    [0m common.recordlog:apiutil.py:119 参数类型params
+[32mINFO    [0m common.recordlog:apiutil.py:210 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+[32mINFO    [0m common.recordlog:apiutil.py:216 json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+[32mINFO    [0m common.recordlog:assertion.py:46 error_code包含断言成功

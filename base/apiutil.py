@@ -1,5 +1,6 @@
 from json.decoder import JSONDecodeError
-
+import urllib3
+from requests import utils
 import allure
 import requests
 import re
@@ -21,6 +22,7 @@ class BaseRequests:
         self.OprateConf = OprateConfig()
 
     def replace_laod(self, data):  # 解析表达式
+        print("进入replace_load")
         '''yaml文件解析${}'''
         str_data = data  # ？
         if not isinstance(data, str):  # 判断是否为字符串类型，是的话就转换为json字符串
@@ -32,28 +34,34 @@ class BaseRequests:
                 end_index = str_data.index('}', start_index)
 
                 exp = str_data[start_index:end_index + 1]  # 提取表达式
-                # print(exp)
+                print("提取表达式", exp)
 
                 func_name = exp[2:exp.index("(")]  # 提取函数名
+                print("获取函数名", func_name)
 
                 func_params = exp[exp.index('(') + 1:exp.index(')')]  # 提取出参数值
-                # print(func_params)
+                print("获取参数名", func_params)
 
+                print("spilt结果为", func_params.split(','))
                 extract_data = getattr(DebufTalk(), func_name)(*func_params.split(',') if func_params else "")
                 # getattr返回一个类的方法或属性，如果是方法的话会执行该方法
 
-                # print(extract_data)  # 传入替换参数对应的值
+                print("调用解析函数", extract_data)  # 传入替换参数对应的值
 
                 str_data = str_data.replace(exp, str(extract_data))
-                # print(str_data)
+                print("replace后的str_data为", str_data)
 
         if data and isinstance(data, dict):
             data = json.loads(str_data)
+            print("替换后的data为", data, "替换后的类型为", type(data))
         else:
+            print("替换后的data不是字典")
             data = str_data
         return data
 
-    def specification_yaml(self, yaml_dict):  # 规范yaml测试接口
+    def specification_yaml(self, base_info, test_case):  # 规范yaml测试接口
+        print("调用一次specification_yaml")
+        # print("每个测试用例为:",test_case)
         '''
         :param yaml_dict:列表类型
         :return:
@@ -62,10 +70,10 @@ class BaseRequests:
 
         # try:#加上try_catch可能无法捕获Assertion错误
         base_url = self.OprateConf.get_envi("host")
-        url = base_url + yaml_dict["baseInfo"]["url"]
-        api_name = yaml_dict["baseInfo"]["api-name"]
-        method = yaml_dict["baseInfo"]["method"]
-        header = yaml_dict["baseInfo"]["header"]
+        url = base_url + base_info["url"]
+        api_name = base_info["api-name"]
+        method = base_info["method"]
+        header = base_info["header"]
         print(api_name)
 
         # attach展示必须要字符串
@@ -74,63 +82,73 @@ class BaseRequests:
         allure.attach(str(header), f"请求头:{str(header)}", allure.attachment_type.TEXT)
         allure.attach(method, f"请求方法:{method}", allure.attachment_type.TEXT)
 
-        cookie = None
-        try:
-            cookie = self.replace_laod(yaml_dict["baseInfo"]["cookies"])  # 解析表达式获取cookie
-        except:
-            pass
+        cookie = {}
+        print(type(cookie))
+        # # try:
+        # print("yaml用例信息的cookies为", base_info["cookies"], "类型为", type(base_info["cookies"]))
+        # cookie = self.replace_laod(base_info["cookies"])  # 解析表达式获取cookie
+        # print("获取到cookie为:", cookie)
+        # print(type(cookie))
+        # cookie = json.loads(cookie)
+        # print("cookie的类型为", type(cookie))
+        # print("cookie为", cookie["access_token_cookie"])
+        # except:
+        #     pass
 
-        # print("用例列表？的类型为:", type(case_info["testCase"]), "\n值为\n", case_info["testCase"])
-
-        for tc in yaml_dict["testCase"]:  # 字典中有‘-’的为列表的元素值，tc为列表中的元素：测试用例
-            case_name = tc.pop("case_name")  # 列表删除指定元素的值
-            validation = tc.pop("validation")
-            extract = tc.pop("extract", None)
-            extract_list = tc.pop("extract_list", None)  # 没有默认返回None,所以允许该键不存在
-            # print("每个testcase的值取出后为:", tc)
-
-            for key, value in tc.items():  # 遍历dict中的所有键值对
-                if key in params_type:  # 如果属于param、data、json格式
-                    tc[key] = self.replace_laod(value)  # 解析,重写获取字典
-                    # print(tc[key])
-                    # print(value)
-
-            # print(tc.keys())
-            # print(list(tc.keys()))
-
-            ArgType = list(tc.keys())[0]  # 获取参数类型，params、data、json
+        case_name = test_case.pop("case_name")
+        val = self.replace_laod(test_case.get("validation"))
+        test_case["validation"] = json.loads(val)  # 替换之后要把字符串重新转换为dict对象
+        validation = test_case.pop("validation")
+        # print("validation为", validation)
+        extract = test_case.pop("extract", None)
+        extract_list = test_case.pop("extract_list", None)
+        for key, value in test_case.items():  # 遍历dict中的所有键值对
+            if key in params_type:  # 如果属于param、data、json格式
+                test_case[key] = self.replace_laod(value)  # 解析,重写获取字典
+        print("-----------------------------")
+        print("testcase为", test_case)
+        print("获取到的test_case长度为", len(test_case.keys()))
+        Params = {}
+        if len(test_case.keys()) != 0:
+            ArgType = list(test_case.keys())[0]  # 获取参数类型，params、data、json
             Params = {
-                ArgType: tc[ArgType]
+                ArgType: test_case[ArgType],
+                # "cookies": cookie["access_token_cookie"]
             }  # 获取不定类型的参数
+            print("参数：", test_case[ArgType])
+            logs.info(f"参数类型{ArgType}")
 
-            allure.attach(str(Params), f"请求参数:{str(Params)}", allure.attachment_type.TEXT)
-            # request请求的可选参数**kwargs传入一个**字典就可以
-            res = requests.request(url=url, **Params, headers=header, method=method, cookies=cookie,
-                                   files=None)
+        allure.attach(str(Params), f"请求参数:{str(Params)}", allure.attachment_type.TEXT)
 
-            # 每个用例发送请求
-            resTxt = res.text
-            resJson = res.json()
-            # print("响应信息的内容为:", type(resTxt))
-            allure.attach(resTxt, f"接口响应信息:", allure.attachment_type.TEXT)
-            allure.attach(str(res.status_code), f"接口状态码: {res.status_code}", allure.attachment_type.TEXT)
+        # request请求的可选参数**kwargs传入一个**字典就可以
+        res = requests.request(url=url, **Params, headers=header, method=method, cookies=cookie, files=None)
+        set_cookie = requests.utils.dict_from_cookiejar(res.cookies)
+        if set_cookie:
+            cookie["Cookie"] = set_cookie
+            self.OprateYaml.write_yaml_data(cookie)
+            logs.info(f"cookie{cookie}")
 
-            # print(res.json())
-            # print(extract)
+        # 每个用例发送请求
+        resTxt = res.text
+        resJson = res.json()
+        print("响应为:", resJson)
+        # print("响应信息的内容为:", type(resTxt))
+        allure.attach(resTxt, f"接口响应信息:", allure.attachment_type.TEXT)
+        allure.attach(str(res.status_code), f"接口状态码: {res.status_code}", allure.attachment_type.TEXT)
 
-            if extract is not None:
-                self.extract_data(extract, resTxt)
+        if extract is not None:
+            self.extract_data(extract, resTxt)
 
-            if extract_list is not None:
-                self.extract_data_list(extract_list, resTxt)
+        if extract_list is not None:
+            self.extract_data_list(extract_list, resTxt)
+        # 处理断言
+        print("调用一次assert_result")
+        assert_res.assert_result(validation, resJson, res.status_code)
 
-            # 处理断言
-            assert_res.assert_result(validation, resJson, res.status_code)
-
-        # except Exception as e:  # 抛出异常会显示在测试报告中
-        #     logs.error(f"抛出异常{e}")
-        #     print(e)
-        #     return e
+    # except Exception as e:  # 抛出异常会显示在测试报告中
+    #     logs.error(f"抛出异常{e}")
+    #     print(e)
+    #     return e
 
     def extract_data(self, testcase_extract, response):
         """
@@ -165,7 +183,6 @@ class BaseRequests:
                         extract_data = {key: ext_json}
                     else:
                         extract_data = {key: "未提取到"}
-
 
                     logs.info(f"json提取:{extract_data}")
                     self.OprateYaml.write_yaml_data(extract_data, "./extract.yaml")

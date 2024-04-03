@@ -7,10 +7,18 @@ from common.recordlog import logs
 
 
 def readTestCase(file):
+    resultList = []
     try:
         with open(file, "r", encoding="UTF-8") as f:
-            yaml_data = yaml.safe_load(f)
-            return yaml_data
+            yaml_data = yaml.safe_load(f)[0]
+            baseInfo = yaml_data.get("baseInfo")
+            testcases = yaml_data.get("testCase")
+            for tc in yaml_data.get("testCase"):
+                # print("每个测试用例为",tc)
+                param = [baseInfo, tc]
+                resultList.append(param)
+
+            return resultList
     except Exception as e:
         print("文件打开失败", e)
 
@@ -22,7 +30,7 @@ class ReadYamlData:  # 与yaml文件进行交互
         else:
             self.yaml_file = "../testcase/Login/login.yaml"
 
-    def write_yaml_data(self, value, file_path):
+    def write_yaml_data(self, value, file_path="extract.yaml"):
         # file_path = "extract.yaml"  # 接口依赖传递数据
         if not os.path.exists(file_path):  # 在当前工作目录寻找
             os.system(file_path)

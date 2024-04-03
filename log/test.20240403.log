@@ -1,0 +1,943 @@
+INFO - 2024-04-03 01:17:49,072 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:17:49,146 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:17:49,146 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:17:49,172 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 01:17:49,173 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 01:22:33,769 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:22:33,864 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:22:33,864 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:22:33,898 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 01:22:33,898 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 01:23:01,454 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:23:01,529 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:23:01,529 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:23:01,563 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 01:23:01,563 - apiutil.py:117 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 01:45:12,511 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:45:12,633 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:45:12,681 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 01:55:10,429 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:55:10,523 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:55:10,555 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 01:56:19,770 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:56:20,054 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 01:56:20,148 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 02:00:58,691 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:00:58,836 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:12:52,401 - readYaml.py:16 -[readYaml:readTestCase] - tc{'case_name': '用户名和密码正确', 'data': {'user_name': 'test01', 'passwd': 'admin123'}, 'validation': [{'contains': {'error_code': 'None'}}, {'contains': {'status_code': 200}}, {'eq': {'msg': '登录成功'}}, {'db': 'select * from books where id="1"'}], 'extract': {'token': '$.token'}}
+INFO - 2024-04-03 02:12:52,401 - readYaml.py:16 -[readYaml:readTestCase] - tc{'case_name': '用户名和密码错误', 'data': {'user_name': 'test02', 'passwd': 123}, 'validation': [{'contains': {'msg': '登录失败'}}], 'extract_list': {'token': '$.token'}}
+INFO - 2024-04-03 02:12:52,431 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:12:52,549 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:14:39,260 - readYaml.py:16 -[readYaml:readTestCase] - testCase[{'case_name': '用户名和密码正确', 'data': {'user_name': 'test01', 'passwd': 'admin123'}, 'validation': [{'contains': {'error_code': 'None'}}, {'contains': {'status_code': 200}}, {'eq': {'msg': '登录成功'}}, {'db': 'select * from books where id="1"'}], 'extract': {'token': '$.token'}}, {'case_name': '用户名和密码错误', 'data': {'user_name': 'test02', 'passwd': 123}, 'validation': [{'contains': {'msg': '登录失败'}}], 'extract_list': {'token': '$.token'}}]
+INFO - 2024-04-03 02:14:39,294 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:14:39,432 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:17:11,699 - readYaml.py:17 -[readYaml:readTestCase] - testCase[{'case_name': '用户名和密码正确', 'data': {'user_name': 'test01', 'passwd': 'admin123'}, 'validation': [{'contains': {'error_code': 'None'}}, {'contains': {'status_code': 200}}, {'eq': {'msg': '登录成功'}}, {'db': 'select * from books where id="1"'}], 'extract': {'token': '$.token'}}, {'case_name': '用户名和密码错误', 'data': {'user_name': 'test02', 'passwd': 123}, 'validation': [{'contains': {'msg': '登录失败'}}], 'extract_list': {'token': '$.token'}}]
+INFO - 2024-04-03 02:17:11,725 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:17:11,815 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:18:35,129 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:18:35,231 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:19:05,028 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:19:05,150 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:19:09,508 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:19:09,613 - apiutil.py:97 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:23:28,532 - apiutil.py:98 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:23:28,640 - apiutil.py:98 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:28:27,468 - apiutil.py:99 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:28:27,603 - apiutil.py:99 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:30:54,953 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:30:55,069 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:31:09,386 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:31:09,493 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:34:20,992 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:34:21,138 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:34:35,757 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:34:35,853 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:35:18,654 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:35:18,771 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:35:45,080 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:35:45,199 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:36:51,162 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:36:51,269 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:37:37,935 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:37:38,057 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:46:46,206 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:46:46,329 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:50:09,270 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:50:09,369 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:50:36,600 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 02:50:36,707 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:18:51,088 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:18:51,232 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:19:29,470 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:19:29,570 - apiutil.py:100 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:21:28,968 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:21:29,078 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:23:53,457 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:23:53,553 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:25:21,012 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:25:21,120 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:28:46,029 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:29:13,708 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:31:41,523 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:34:34,524 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:34:34,540 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '8545b1a441bD144C31BaC3045756D'}
+INFO - 2024-04-03 09:34:34,641 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:34:47,409 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:34:47,427 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'cDDA0eBfeE1d07EfE3c9Fc7B5716F'}
+INFO - 2024-04-03 09:34:47,571 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:40:07,777 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:40:07,792 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'cF8bf79a8c5A2c0bfc9Ec4fED25b8'}
+INFO - 2024-04-03 09:40:07,884 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:40:39,361 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:40:39,374 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'a3BCf2c5125f6DE544d9523A89F4c'}
+INFO - 2024-04-03 09:40:39,451 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:42:58,064 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:42:58,077 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': 'cA6eBab6d9e370a11dBADbEbC2a12'}
+INFO - 2024-04-03 09:42:58,155 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:44:04,373 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:44:04,391 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '068F769B6e0FDcCBEAe3E125b69C6'}
+INFO - 2024-04-03 09:44:04,519 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:44:25,171 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:44:25,183 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '31EB60b498FacCcb0E41CE4b5a8e0'}
+INFO - 2024-04-03 09:44:25,275 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:45:14,278 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:45:14,290 - apiutil.py:163 -[apiutil:extract_data] - json提取:{'token': '0e895ca3Bbae71EC399d76De5cFa2'}
+INFO - 2024-04-03 09:45:14,387 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:46:46,200 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:46:46,214 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '54cC1fdB2BC1BeDdC4e7beCbad9ed'}
+INFO - 2024-04-03 09:46:46,217 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 09:46:46,219 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 09:46:46,220 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 09:46:46,273 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 09:46:46,286 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 09:46:46,301 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:46:46,312 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 09:46:56,826 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:46:56,839 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '5Fe746cAe384023dF248AAbB70b5A'}
+INFO - 2024-04-03 09:46:56,841 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 09:46:56,842 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 09:46:56,843 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 09:46:56,849 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 09:46:56,851 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 09:46:56,863 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:46:56,873 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 09:53:46,381 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:53:46,398 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'B1B95FDCdEDee8D8Fdb80b2FAFAE2'}
+INFO - 2024-04-03 09:53:46,400 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 09:53:46,402 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 09:53:46,403 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 09:53:46,418 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 09:53:46,424 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 09:53:46,439 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:53:46,451 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 09:56:59,141 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:56:59,157 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '8FfF1EF7A9b2BA5DfbFabbEdcE81F'}
+INFO - 2024-04-03 09:56:59,158 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 09:56:59,159 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 09:56:59,161 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 09:56:59,165 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 09:56:59,173 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 09:56:59,186 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:56:59,196 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 09:56:59,209 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 09:56:59,224 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 09:57:54,706 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:57:54,718 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': 'B7F4cB61dEBBDFAF1fEcbA842550a'}
+INFO - 2024-04-03 09:57:54,719 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 09:57:54,721 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 09:57:54,722 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 09:57:54,742 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 09:57:54,746 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 09:57:54,757 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 09:57:54,767 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 09:57:54,776 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 09:57:54,790 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:00:42,362 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:00:42,375 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '71b9F5EFeC173dD1f1C8Ab9A2aFD4'}
+INFO - 2024-04-03 10:00:42,376 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:00:42,377 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 10:00:42,378 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 10:00:42,387 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 10:00:42,390 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 10:00:42,401 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:00:42,408 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 10:00:42,421 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 10:00:42,429 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:03:37,619 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:03:37,633 - apiutil.py:162 -[apiutil:extract_data] - json提取:{'token': '6359b56b9cAfde96090ccb5cA8dCe'}
+INFO - 2024-04-03 10:03:37,634 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:03:37,634 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 10:03:37,635 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 10:03:37,639 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 10:03:37,643 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 10:03:37,653 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:03:37,663 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 10:03:37,672 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 10:03:37,683 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:11:08,767 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:11:08,784 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 10:11:08,785 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 10:11:08,786 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 10:11:08,804 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 10:11:08,815 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 10:11:08,816 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 10:11:08,818 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:11:08,845 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 10:11:08,904 - apiutil.py:188 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 10:11:08,904 - apiutil.py:194 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 10:11:08,910 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:13:32,560 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:13:32,579 - apiutil.py:164 -[apiutil:extract_data] - json提取:{'token': '80feBc7a08014F740844100B027ca'}
+INFO - 2024-04-03 10:13:32,700 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:13:32,743 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 10:14:31,311 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:14:31,327 - apiutil.py:164 -[apiutil:extract_data] - json提取:{'token': '280B0dfDEcbfB595980Cd58a05723'}
+INFO - 2024-04-03 10:14:31,329 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:14:31,330 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 10:14:31,333 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 10:14:31,341 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 10:14:31,345 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 10:14:31,359 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:14:31,370 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 10:14:31,370 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 10:14:31,371 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 10:14:31,387 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 10:14:31,396 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 10:14:31,397 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 10:14:31,400 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:14:31,425 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 10:14:31,450 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 10:14:31,450 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 10:14:31,454 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:17:39,003 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:17:39,016 - apiutil.py:164 -[apiutil:extract_data] - json提取:{'token': '5E8AF8A45f9f21E3A67f10BF6829c'}
+INFO - 2024-04-03 10:17:39,018 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:17:39,019 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 10:17:39,020 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 10:17:39,027 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 10:17:39,030 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 10:17:39,041 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:17:39,047 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 10:17:39,047 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 10:17:39,048 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 10:17:39,061 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 10:17:39,068 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 10:17:39,068 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 10:17:39,070 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:17:39,093 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 10:17:39,108 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 10:17:39,108 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 10:17:39,112 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:42:16,699 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:42:16,740 - apiutil.py:164 -[apiutil:extract_data] - json提取:{'token': '057061dD0E792F8BC258ba3851772'}
+INFO - 2024-04-03 10:42:16,741 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:42:16,742 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 10:42:16,743 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 10:42:16,763 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 10:42:16,771 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 10:42:16,780 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:42:16,790 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 10:42:16,791 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 10:42:16,791 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 10:42:16,806 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 10:42:16,814 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 10:42:16,815 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 10:42:16,816 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:42:16,839 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 10:42:16,857 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 10:42:16,858 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 10:42:16,860 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:56:43,017 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:56:43,034 - apiutil.py:164 -[apiutil:extract_data] - json提取:{'token': '06cbe46c94f36EBDeC34a02997bb6'}
+INFO - 2024-04-03 10:56:43,036 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:56:43,038 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 10:56:43,039 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 10:56:43,052 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 10:56:43,055 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 10:56:43,067 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 10:56:43,080 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 10:56:43,080 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 10:56:43,081 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 10:56:43,096 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 10:56:43,105 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 10:56:43,106 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 10:56:43,110 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 10:56:43,130 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 10:56:43,151 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 10:56:43,152 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 10:56:43,155 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 12:46:21,593 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 12:46:21,744 - apiutil.py:164 -[apiutil:extract_data] - json提取:{'token': 'FaA3a556AC1dCe3Da78f2dcF5fda6'}
+INFO - 2024-04-03 12:46:21,747 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 12:46:21,750 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 12:46:21,752 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 12:46:21,780 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 12:46:21,787 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 12:46:21,802 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 12:46:21,812 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 12:46:21,812 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 12:46:21,814 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 12:46:21,831 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 12:46:21,843 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 12:46:21,844 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 12:46:21,847 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 12:46:21,871 - apiutil.py:101 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 12:46:21,904 - apiutil.py:187 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 12:46:21,904 - apiutil.py:193 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 12:46:21,906 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 14:20:23,437 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 14:20:23,667 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 14:20:23,676 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 14:20:23,676 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 14:20:23,679 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 14:20:23,693 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 14:20:23,704 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 14:20:23,704 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 14:20:23,706 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 14:20:23,725 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 14:20:23,746 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 14:20:23,747 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 14:20:23,751 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 14:22:55,669 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 14:22:55,768 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 14:22:55,778 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 14:22:55,779 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 14:22:55,780 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 14:22:55,798 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 14:22:55,810 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 14:22:55,811 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 14:22:55,812 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 14:22:55,828 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 14:22:55,844 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 14:22:55,845 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 14:22:55,848 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 14:24:46,493 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 14:24:46,509 - apiutil.py:112 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEyNTQ4NiwianRpIjoiYjg1ZDFhZDItZmFhZC00NjFmLThiZTEtZmZmZjhkNGY1NmMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEyNTQ4NiwiZXhwIjoxNzEyMTI2Mzg2fQ.0mwiBIEBX9fyyKgoGsmB7l1LdqAD7RbJkR1r8yreurQ'}}
+INFO - 2024-04-03 14:24:46,512 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'bc2b99C8ff69a2A435d3AfD21d5aa'}
+INFO - 2024-04-03 14:24:46,514 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 14:24:46,516 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 14:24:46,517 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 14:24:46,558 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 14:24:46,564 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 14:24:46,579 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 14:24:46,589 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 14:24:46,589 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 14:24:46,593 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 14:24:46,609 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 14:24:46,619 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 14:24:46,619 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 14:24:46,622 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 14:24:46,649 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 14:24:46,671 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 14:24:46,672 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 14:24:46,676 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 14:45:26,128 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 14:45:26,276 - apiutil.py:112 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEyNjcyNiwianRpIjoiMWQwZmFkZmQtYjY5ZC00NzY0LTljMWMtZGNlNTgzZDUyOTRkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEyNjcyNiwiZXhwIjoxNzEyMTI3NjI2fQ.ZlRzlyN0GwFDZQK4vSHEHouZHXqcEJSFBRCaM8DkVsA'}}
+INFO - 2024-04-03 14:45:26,282 - apiutil.py:170 -[apiutil:extract_data] - json提取:{'token': 'E7e26bc1DfACEbDde43EF9BacB6DE'}
+INFO - 2024-04-03 14:45:26,284 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 14:45:26,286 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 14:45:26,288 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 14:45:26,323 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 14:45:26,329 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 14:45:26,350 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 14:45:26,367 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 14:45:26,368 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 14:45:26,369 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 14:45:26,708 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 14:45:26,725 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 14:45:26,726 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 14:45:26,729 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 14:45:26,771 - apiutil.py:102 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 14:45:26,819 - apiutil.py:193 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 14:45:26,820 - apiutil.py:199 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 14:45:26,824 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:35:36,902 - apiutil.py:103 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:35:36,916 - apiutil.py:113 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEyOTczNiwianRpIjoiMmQyNGU3ODUtNjA5MS00M2ZhLTkzYTUtN2E5YjkwNGFhOGUwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEyOTczNiwiZXhwIjoxNzEyMTMwNjM2fQ.0OT_2tXX9ASkMsg0Xd0gRogqIDwte_ulaOHJGg6v2sw'}}
+INFO - 2024-04-03 15:35:36,919 - apiutil.py:171 -[apiutil:extract_data] - json提取:{'token': 'afe6F72EbCe4CD3deB1a0A004E9C9'}
+INFO - 2024-04-03 15:35:36,923 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:35:36,927 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 15:35:36,929 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 15:35:36,948 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 15:35:36,951 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 15:35:36,973 - apiutil.py:103 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:35:36,985 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 15:35:36,986 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 15:35:36,989 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 15:35:37,099 - apiutil.py:103 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 15:35:37,113 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 15:35:37,114 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 15:35:37,117 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:35:37,158 - apiutil.py:103 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 15:35:37,191 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 15:35:37,195 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 15:35:37,210 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:36:07,018 - apiutil.py:103 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:36:07,032 - apiutil.py:113 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEyOTc2NywianRpIjoiZTM1ZDRiMzUtOWQzZS00ZDdkLTk0NDQtMGYyMTczM2E0ZGRmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEyOTc2NywiZXhwIjoxNzEyMTMwNjY3fQ.AqTiOwBqT9c9M7ZcRcBmafZAca-gZvRp0Pb3oMlDL7U'}}
+INFO - 2024-04-03 15:36:07,036 - apiutil.py:171 -[apiutil:extract_data] - json提取:{'token': '4F4e23cb69Dd4bfFAe7CDb9E899B7'}
+INFO - 2024-04-03 15:36:07,042 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:36:07,046 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 15:36:07,051 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 15:36:07,066 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 15:36:07,070 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 15:36:07,091 - apiutil.py:103 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:36:07,102 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 15:36:07,102 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 15:36:07,104 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 15:36:07,212 - apiutil.py:103 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 15:36:07,219 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 15:36:07,234 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 15:36:07,242 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:36:07,269 - apiutil.py:103 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 15:36:07,293 - apiutil.py:194 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 15:36:07,294 - apiutil.py:200 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 15:36:07,302 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:40:16,485 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:40:16,505 - apiutil.py:115 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzMDAxNiwianRpIjoiZDZlZDQ3ZDMtZDdlMi00MDIwLWExMjMtNTlkMWViZmUwYjIzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzMDAxNiwiZXhwIjoxNzEyMTMwOTE2fQ.dMqaQ-YKs_wTtOkFRGrI36rgWvcFrCu0CX2UM8M1vwo'}}
+INFO - 2024-04-03 15:40:16,508 - apiutil.py:173 -[apiutil:extract_data] - json提取:{'token': 'Cef4d46E9ee4A7fA0ac147ddEe89E'}
+INFO - 2024-04-03 15:40:16,510 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:40:16,513 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 15:40:16,517 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 15:40:16,533 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 15:40:16,537 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 15:40:16,554 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:40:16,567 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 15:40:16,567 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 15:40:16,568 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 15:40:16,789 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 15:40:16,809 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 15:40:16,809 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 15:40:16,814 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:40:16,862 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 15:40:16,889 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 15:40:16,889 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 15:40:16,893 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:40:23,215 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:40:23,241 - apiutil.py:115 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzMDAyMywianRpIjoiNjZlYjY3NjUtNmE0MS00ZGI2LWFhN2UtZGY2OTBlNjRmZDMxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzMDAyMywiZXhwIjoxNzEyMTMwOTIzfQ.Lm3eaVvikMHZv0-mueODQGmdOJ5cWD6U7qjFrw5V29E'}}
+INFO - 2024-04-03 15:40:23,245 - apiutil.py:173 -[apiutil:extract_data] - json提取:{'token': '8C0fC144FAa3dbfF2b4ce5CfC9Bf5'}
+INFO - 2024-04-03 15:40:23,249 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:40:23,251 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 15:40:23,255 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 15:40:23,268 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 15:40:23,274 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 15:40:23,294 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:40:23,308 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 15:40:23,309 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 15:40:23,312 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 15:40:23,473 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 15:40:23,486 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 15:40:23,544 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 15:40:23,556 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:40:23,592 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 15:40:23,619 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 15:40:23,625 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 15:40:23,632 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:41:02,666 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:41:02,683 - apiutil.py:115 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzMDA2MiwianRpIjoiMThhNjA0ZjctZGJiOC00N2E3LWI1OWUtMDM0MWVkY2E1Njk4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzMDA2MiwiZXhwIjoxNzEyMTMwOTYyfQ.v0JHKJMHqy9vJojUm0mbUw-uQBmjTeGpmKQjpyFv4nQ'}}
+INFO - 2024-04-03 15:41:02,686 - apiutil.py:173 -[apiutil:extract_data] - json提取:{'token': '8a95a16EF6752A99c4148dC60a9D9'}
+INFO - 2024-04-03 15:41:02,688 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:41:02,689 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 15:41:02,690 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 15:41:02,701 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 15:41:02,704 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 15:41:02,721 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:41:02,732 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 15:41:02,732 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 15:41:02,733 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 15:41:02,829 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 15:41:02,839 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 15:41:02,839 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 15:41:02,841 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:41:02,868 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 15:41:02,895 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 15:41:02,896 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 15:41:02,903 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:42:09,917 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:42:09,935 - apiutil.py:115 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzMDEyOSwianRpIjoiNmU4ZmZmNjQtYTY5Yy00OTgwLWE5MGItZjQ2NDIwNjVjZWQ3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzMDEyOSwiZXhwIjoxNzEyMTMxMDI5fQ.OEwj4JhgIUPNi6DFg6eu3xTOTYR51_00uf8ZRUm6fsk'}}
+INFO - 2024-04-03 15:42:09,940 - apiutil.py:173 -[apiutil:extract_data] - json提取:{'token': 'A6EE9ffB7cB7CeEDC8fd5292D2c98'}
+INFO - 2024-04-03 15:42:09,942 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:42:09,943 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 15:42:09,946 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 15:42:09,961 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 15:42:09,966 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 15:42:09,983 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:42:09,997 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 15:42:09,997 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 15:42:09,999 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 15:42:10,176 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 15:42:10,190 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 15:42:10,191 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 15:42:10,193 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:42:10,228 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 15:42:10,256 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 15:42:10,256 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 15:42:10,260 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:47:26,240 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:47:26,255 - apiutil.py:115 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzMDQ0NiwianRpIjoiZWIzMzc3ZmMtNzBhMy00MjIxLWFlZDQtNThiNzEzYjllYmYxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzMDQ0NiwiZXhwIjoxNzEyMTMxMzQ2fQ.HXgDVVsAqPMBvDTkLPov4Hrf9_ujZS2ad-srtESfI5A'}}
+INFO - 2024-04-03 15:47:26,257 - apiutil.py:173 -[apiutil:extract_data] - json提取:{'token': '2dd349F0dF7d6b778fA170bd95BaE'}
+INFO - 2024-04-03 15:47:26,260 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:47:26,262 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 15:47:26,268 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 15:47:26,277 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 15:47:26,282 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 15:47:26,300 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:47:26,315 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 15:47:26,317 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 15:47:26,322 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 15:47:26,460 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 15:47:26,473 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 15:47:26,474 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 15:47:26,477 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:47:26,512 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 15:47:26,528 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 15:47:26,528 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 15:47:26,536 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:49:15,697 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:49:15,712 - apiutil.py:115 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzMDU1NSwianRpIjoiMjBkMzQ5OGItYzg1OS00MzU0LWI4YjAtZTJjNWJkMDE1YzUxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzMDU1NSwiZXhwIjoxNzEyMTMxNDU1fQ.jW6nrOmS-Th0_JwnWaLmRUlwVcQLNQchnZ_HNe9cnBA'}}
+INFO - 2024-04-03 15:49:15,716 - apiutil.py:173 -[apiutil:extract_data] - json提取:{'token': '7602E8AFFdFbF08bD3D529B19d61B'}
+INFO - 2024-04-03 15:49:15,721 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:49:15,722 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 15:49:15,724 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 15:49:15,729 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 15:49:15,731 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 15:49:15,756 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:49:15,768 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 15:49:15,769 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 15:49:15,775 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 15:49:15,933 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 15:49:15,945 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 15:49:15,945 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 15:49:15,951 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:49:15,987 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 15:49:16,003 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 15:49:16,004 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 15:49:16,008 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:55:51,459 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:55:51,495 - apiutil.py:115 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzMDk1MSwianRpIjoiZjk3OGMxMDMtMDRkMC00MzhjLWIzY2MtZTkzY2Y0N2M2NGU1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzMDk1MSwiZXhwIjoxNzEyMTMxODUxfQ.OQNfsGOE-JVRJ-VZRbYeLzXK490O5mmTNpF9GpMWHOE'}}
+INFO - 2024-04-03 15:55:51,505 - apiutil.py:173 -[apiutil:extract_data] - json提取:{'token': '22a748f1CADbDee61B620Be4Bee94'}
+INFO - 2024-04-03 15:55:51,514 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:55:51,521 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 15:55:51,530 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 15:55:51,549 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 15:55:51,556 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 15:55:51,590 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:55:51,612 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 15:55:51,615 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 15:55:51,620 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+ERROR - 2024-04-03 15:55:51,683 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果未携带cookie信息不包含预期值操作成功
+INFO - 2024-04-03 15:55:51,919 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 15:55:51,942 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 15:55:51,944 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 15:55:51,951 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:55:52,009 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 15:55:52,048 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 15:55:52,049 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 15:55:52,069 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:56:11,750 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:56:11,769 - apiutil.py:115 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzMDk3MSwianRpIjoiMWM5NmMyMmUtNzY2Zi00ZWU0LTgzNGUtMWQyOWEwOGMxMDZmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzMDk3MSwiZXhwIjoxNzEyMTMxODcxfQ.qcrJl3gPhoSMVnWyByWQeGz3PDxdw9APNbK71MqdFEU'}}
+INFO - 2024-04-03 15:56:11,776 - apiutil.py:173 -[apiutil:extract_data] - json提取:{'token': '3bC2E5E9E16B518CcBDE7CD253D94'}
+INFO - 2024-04-03 15:56:11,778 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:56:11,779 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 15:56:11,780 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 15:56:11,806 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 15:56:11,813 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 15:56:11,830 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 15:56:11,843 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 15:56:11,844 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 15:56:11,845 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+ERROR - 2024-04-03 15:56:11,879 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果未携带cookie信息不包含预期值操作成功
+INFO - 2024-04-03 15:56:12,034 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 15:56:12,049 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 15:56:12,049 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 15:56:12,051 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 15:56:12,085 - apiutil.py:105 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 15:56:12,105 - apiutil.py:196 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 15:56:12,106 - apiutil.py:202 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 15:56:12,111 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:00:14,037 - apiutil.py:106 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:00:14,058 - apiutil.py:116 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzNDgxNCwianRpIjoiMTQ4OTU0MzItZmYxMS00NWM5LWIyM2YtMDFhNDE3NGQzNGI4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzNDgxNCwiZXhwIjoxNzEyMTM1NzE0fQ.a6NoPGf_QA0UKQ0Qb2yP_9gvDlE9TQSHxNThFoNBcps'}}
+INFO - 2024-04-03 17:00:14,062 - apiutil.py:174 -[apiutil:extract_data] - json提取:{'token': 'c86b1B692243d8Fd8DA17A85f1E43'}
+INFO - 2024-04-03 17:00:14,065 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:00:14,066 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 17:00:14,068 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 17:00:14,081 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 17:00:14,085 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 17:00:14,106 - apiutil.py:106 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:00:14,118 - apiutil.py:197 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 17:00:14,119 - apiutil.py:203 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 17:00:14,125 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 17:00:14,460 - apiutil.py:106 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 17:00:14,475 - apiutil.py:197 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 17:00:14,476 - apiutil.py:203 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 17:00:14,481 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:00:14,516 - apiutil.py:106 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 17:00:14,537 - apiutil.py:197 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 17:00:14,538 - apiutil.py:203 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 17:00:14,545 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+ERROR - 2024-04-03 17:03:19,632 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果未携带cookie信息不包含预期值操作成功
+ERROR - 2024-04-03 17:03:28,822 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果未携带cookie信息不包含预期值操作成功
+INFO - 2024-04-03 17:07:10,458 - apiutil.py:107 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:07:10,472 - apiutil.py:117 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzNTIzMCwianRpIjoiM2U1NDY5NTYtYjgwMS00NGIyLTg4ZmYtYzRkNDRhYWQxZmU3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzNTIzMCwiZXhwIjoxNzEyMTM2MTMwfQ.KntRpSoAbu1BFByCp46zNvLElhaaeQ-AscPfj4nMyLk'}}
+INFO - 2024-04-03 17:07:10,474 - apiutil.py:175 -[apiutil:extract_data] - json提取:{'token': 'f8eFDdCA3cEE80Ad02Be54E03DA6e'}
+INFO - 2024-04-03 17:07:10,476 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:07:10,477 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 17:07:10,479 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 17:07:10,506 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 17:07:10,509 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 17:07:10,527 - apiutil.py:107 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:07:10,538 - apiutil.py:198 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 17:07:10,538 - apiutil.py:204 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 17:07:10,539 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 17:07:10,670 - apiutil.py:107 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 17:07:10,679 - apiutil.py:198 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 17:07:10,680 - apiutil.py:204 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 17:07:10,682 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:07:10,712 - apiutil.py:107 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 17:07:10,737 - apiutil.py:198 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 17:07:10,738 - apiutil.py:204 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 17:07:10,740 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:07:38,739 - apiutil.py:107 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:07:38,753 - apiutil.py:117 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzNTI1OCwianRpIjoiOTg0OTA3MTUtNjExMi00ZTRmLTkwZjQtZTI3MmRlMWIxNGU4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzNTI1OCwiZXhwIjoxNzEyMTM2MTU4fQ.iIFf0HeVuafBrUZZoIBS7HzaiPczOydCUew6Hs5EnsY'}}
+INFO - 2024-04-03 17:07:38,755 - apiutil.py:175 -[apiutil:extract_data] - json提取:{'token': 'C1fFBBd0B3A6f62beFC5186e43EaF'}
+INFO - 2024-04-03 17:07:38,758 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:07:38,759 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 17:07:38,761 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 17:07:38,787 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 17:07:38,792 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 17:07:38,806 - apiutil.py:107 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:07:38,817 - apiutil.py:198 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 17:07:38,817 - apiutil.py:204 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 17:07:38,822 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 17:07:38,970 - apiutil.py:107 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 17:07:38,982 - apiutil.py:198 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 17:07:38,983 - apiutil.py:204 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 17:07:38,986 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:07:39,012 - apiutil.py:107 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 17:07:39,030 - apiutil.py:198 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 17:07:39,035 - apiutil.py:204 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 17:07:39,039 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+ERROR - 2024-04-03 17:08:57,010 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果未携带cookie信息不包含预期值操作成功
+INFO - 2024-04-03 17:09:20,110 - apiutil.py:107 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:09:20,122 - apiutil.py:117 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzNTM2MCwianRpIjoiNWI3YjIwMmEtOTc2MS00ODI0LWJhYmYtYWM1OTA0MzFkN2M4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzNTM2MCwiZXhwIjoxNzEyMTM2MjYwfQ.O8Qcw21gLrecju-qkn5uRwk1oJeeJvNTGyrw2n8Xy5M'}}
+INFO - 2024-04-03 17:09:20,126 - apiutil.py:175 -[apiutil:extract_data] - json提取:{'token': '5291e3c1C4B7d3846d8676f9FFdfD'}
+INFO - 2024-04-03 17:09:20,128 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:09:20,129 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 17:09:20,130 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 17:09:20,136 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 17:09:20,141 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 17:09:20,152 - apiutil.py:107 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:09:20,163 - apiutil.py:198 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 17:09:20,163 - apiutil.py:204 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 17:09:20,165 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 17:09:20,298 - apiutil.py:107 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 17:09:20,307 - apiutil.py:198 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 17:09:20,308 - apiutil.py:204 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 17:09:20,309 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:09:20,328 - apiutil.py:107 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 17:09:20,343 - apiutil.py:198 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 17:09:20,343 - apiutil.py:204 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 17:09:20,346 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:10:28,474 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:10:28,489 - apiutil.py:118 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzNTQyOCwianRpIjoiM2QyMzdlNDQtZDhhZC00ODMyLTlmZmYtNWFlMzc4ODVlN2NlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzNTQyOCwiZXhwIjoxNzEyMTM2MzI4fQ.GITKwaiLI6pXQpA0C93u02Bb9YONdV1jBJse_eYtrZ8'}}
+INFO - 2024-04-03 17:10:28,492 - apiutil.py:176 -[apiutil:extract_data] - json提取:{'token': '57ce6C7fC50ACEe98E416CF34560c'}
+INFO - 2024-04-03 17:10:28,496 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:10:28,499 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 17:10:28,506 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 17:10:28,515 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 17:10:28,520 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 17:10:28,539 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:10:28,552 - apiutil.py:199 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 17:10:28,552 - apiutil.py:205 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 17:10:28,556 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 17:10:28,701 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 17:10:28,710 - apiutil.py:199 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 17:10:28,710 - apiutil.py:205 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 17:10:28,713 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:10:28,743 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 17:10:28,759 - apiutil.py:199 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 17:10:28,759 - apiutil.py:205 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 17:10:28,763 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:11:00,032 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:11:00,047 - apiutil.py:118 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzNTQ2MCwianRpIjoiMmY3ZGE5MGYtODA3MC00MDc2LTgzM2ItZTFkMjE1ZTFmNWYzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzNTQ2MCwiZXhwIjoxNzEyMTM2MzYwfQ.3tkNZD2UOnHec7eRUGx0goUgqfPaWcIXDiEhycnnpNo'}}
+INFO - 2024-04-03 17:11:00,055 - apiutil.py:176 -[apiutil:extract_data] - json提取:{'token': '11b6E4dB8091b0053a3f07Bc36B56'}
+INFO - 2024-04-03 17:11:00,059 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:11:00,061 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 17:11:00,062 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 17:11:00,070 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 17:11:00,072 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 17:11:00,088 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:11:00,096 - apiutil.py:199 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 17:11:00,096 - apiutil.py:205 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 17:11:00,109 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 17:11:00,273 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 17:11:00,284 - apiutil.py:199 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 17:11:00,285 - apiutil.py:205 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 17:11:00,288 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:11:00,322 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 17:11:00,339 - apiutil.py:199 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 17:11:00,339 - apiutil.py:205 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 17:11:00,343 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:13:06,931 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:13:06,946 - apiutil.py:118 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzNTU4NiwianRpIjoiYzA3MThjNzAtOWYxOS00ZTU4LWI2MDYtOWFhN2NiZjYxNjRhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzNTU4NiwiZXhwIjoxNzEyMTM2NDg2fQ.-P2pJLdU8ZLDQK7FZmaAL62A8xA0RPQTy55RGzKivnU'}}
+INFO - 2024-04-03 17:13:06,951 - apiutil.py:176 -[apiutil:extract_data] - json提取:{'token': '548495ac58eF7AA8F7e6aFa1D45F1'}
+INFO - 2024-04-03 17:13:06,955 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:13:06,957 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 17:13:06,959 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 17:13:06,963 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 17:13:06,965 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 17:13:06,983 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:13:06,993 - apiutil.py:199 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 17:13:06,993 - apiutil.py:205 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 17:13:06,998 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 17:13:07,143 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 17:13:07,153 - apiutil.py:199 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 17:13:07,155 - apiutil.py:205 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 17:13:07,163 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:13:07,193 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 17:13:07,210 - apiutil.py:199 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 17:13:07,214 - apiutil.py:205 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 17:13:07,219 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:14:51,469 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:14:51,484 - apiutil.py:118 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzNTY5MSwianRpIjoiOTFhZjMzM2EtYWQyMS00N2JjLTkxYzgtYTVmZWJlNGYwZTA5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzNTY5MSwiZXhwIjoxNzEyMTM2NTkxfQ.6HTW-nZPiRbH0lzX2mBvKACy4xebaL8WBzyRJAtIQ-8'}}
+INFO - 2024-04-03 17:14:51,489 - apiutil.py:176 -[apiutil:extract_data] - json提取:{'token': '35bA73402b2A6DAd2c615E3Dbc526'}
+INFO - 2024-04-03 17:14:51,493 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:14:51,497 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 17:14:51,498 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 17:14:51,504 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 17:14:51,507 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 17:14:51,520 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:14:51,531 - apiutil.py:199 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 17:14:51,531 - apiutil.py:205 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 17:14:51,533 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 17:14:51,668 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 17:14:51,680 - apiutil.py:199 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 17:14:51,681 - apiutil.py:205 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 17:14:51,692 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:14:51,724 - apiutil.py:108 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 17:14:51,739 - apiutil.py:199 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 17:14:51,739 - apiutil.py:205 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 17:14:51,744 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:17:09,749 - apiutil.py:109 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:17:09,764 - apiutil.py:119 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzNTgyOSwianRpIjoiNWE0NzJjMzgtYzk5NC00M2MzLTlkMTctZmFhZTQ4ZTZhNjdmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzNTgyOSwiZXhwIjoxNzEyMTM2NzI5fQ.qqgJBbIZ8OSMVRLjUJQXwco7O8SbPlOeqv7K655JFzs'}}
+INFO - 2024-04-03 17:17:09,767 - apiutil.py:177 -[apiutil:extract_data] - json提取:{'token': '5d3ff4cff5D0EADf2E27DcDaEccA5'}
+INFO - 2024-04-03 17:17:09,770 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:17:09,775 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 17:17:09,780 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 17:17:09,785 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 17:17:09,789 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 17:17:09,806 - apiutil.py:109 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:17:09,817 - apiutil.py:200 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 17:17:09,818 - apiutil.py:206 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 17:17:09,824 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 17:17:10,030 - apiutil.py:109 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 17:17:10,040 - apiutil.py:200 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 17:17:10,046 - apiutil.py:206 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 17:17:10,048 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:17:10,081 - apiutil.py:109 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 17:17:10,099 - apiutil.py:200 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 17:17:10,100 - apiutil.py:206 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 17:17:10,105 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:17:35,435 - apiutil.py:110 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:17:35,447 - apiutil.py:120 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzNTg1NSwianRpIjoiZDUxMGEzMmYtY2JhYS00NDZlLWIwZWEtNjRmOTM2NjM4Y2ZhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzNTg1NSwiZXhwIjoxNzEyMTM2NzU1fQ.O8yVs7dqwNmC2NykuBS2XF9-Whs1MhajJKxxJhx4Ya4'}}
+INFO - 2024-04-03 17:17:35,451 - apiutil.py:178 -[apiutil:extract_data] - json提取:{'token': '9c328791F9F06Dc64488d3D9e0dC3'}
+INFO - 2024-04-03 17:17:35,457 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:17:35,459 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 17:17:35,460 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 17:17:35,463 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 17:17:35,467 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 17:17:35,483 - apiutil.py:110 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:17:35,493 - apiutil.py:201 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 17:17:35,494 - apiutil.py:207 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 17:17:35,503 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 17:17:35,656 - apiutil.py:110 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 17:17:35,664 - apiutil.py:201 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 17:17:35,664 - apiutil.py:207 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 17:17:35,669 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:17:35,695 - apiutil.py:110 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 17:17:35,711 - apiutil.py:201 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 17:17:35,712 - apiutil.py:207 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 17:17:35,720 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:17:56,657 - apiutil.py:111 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:17:56,671 - apiutil.py:121 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzNTg3NiwianRpIjoiZWEyNDFjNjgtMDY5Yi00OGFlLWJiOWMtNTVkYzQ5N2Y2Njc2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzNTg3NiwiZXhwIjoxNzEyMTM2Nzc2fQ.d5LrDo5evr3ovyD1EvjjGB1_CBKeKLsTnx94Oc_U7bE'}}
+INFO - 2024-04-03 17:17:56,677 - apiutil.py:179 -[apiutil:extract_data] - json提取:{'token': '7Bcd3fa4828D337e3ebd45eD369C2'}
+INFO - 2024-04-03 17:17:56,685 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:17:56,686 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 17:17:56,688 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 17:17:56,695 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 17:17:56,697 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 17:17:56,714 - apiutil.py:111 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:17:56,723 - apiutil.py:202 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 17:17:56,724 - apiutil.py:208 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 17:17:56,733 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 17:17:56,905 - apiutil.py:111 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 17:17:56,916 - apiutil.py:202 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 17:17:56,917 - apiutil.py:208 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 17:17:56,919 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:17:56,954 - apiutil.py:111 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 17:17:56,971 - apiutil.py:202 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 17:17:56,971 - apiutil.py:208 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 17:17:56,982 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:18:38,722 - apiutil.py:111 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:18:38,734 - apiutil.py:121 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjEzNTkxOCwianRpIjoiYmRlODM3NWEtNzQzMi00ZGI0LWIwNDUtOGExMzZiNjAyNTc2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjEzNTkxOCwiZXhwIjoxNzEyMTM2ODE4fQ.DKg71CzQ6ZlM8HqE3oBJPU-GA-qaP6hDGCft3fLFMx0'}}
+INFO - 2024-04-03 17:18:38,739 - apiutil.py:179 -[apiutil:extract_data] - json提取:{'token': 'fcF79bA3E749cafCCBAC9C17FA21c'}
+INFO - 2024-04-03 17:18:38,744 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:18:38,745 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 17:18:38,747 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 17:18:38,752 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 17:18:38,756 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 17:18:38,775 - apiutil.py:111 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 17:18:38,784 - apiutil.py:202 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 17:18:38,785 - apiutil.py:208 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 17:18:38,789 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 17:18:38,982 - apiutil.py:111 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 17:18:39,011 - apiutil.py:202 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 17:18:39,013 - apiutil.py:208 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 17:18:39,016 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 17:18:39,044 - apiutil.py:111 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 17:18:39,060 - apiutil.py:202 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 17:18:39,061 - apiutil.py:208 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 17:18:39,065 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 18:56:07,886 - apiutil.py:111 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 18:56:07,988 - apiutil.py:121 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjE0MTc2NywianRpIjoiM2U4ZWJjODYtNGJkZS00Y2RhLWFmYTEtMTI4YmI1Y2M2YmEwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjE0MTc2NywiZXhwIjoxNzEyMTQyNjY3fQ.LgC6n6TTf-VDanQArS_nFFQW9EVhwd0khiG4YQhzAOU'}}
+INFO - 2024-04-03 18:56:07,991 - apiutil.py:179 -[apiutil:extract_data] - json提取:{'token': 'FbB27BC414AA1B2bDea0Dcc81a24b'}
+INFO - 2024-04-03 18:56:07,993 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 18:56:07,994 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 18:56:07,995 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 18:56:08,020 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 18:56:08,025 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 18:56:08,041 - apiutil.py:111 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 18:56:08,049 - apiutil.py:202 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 18:56:08,050 - apiutil.py:208 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 18:56:08,055 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 18:56:08,210 - apiutil.py:111 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 18:56:08,222 - apiutil.py:202 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 18:56:08,223 - apiutil.py:208 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 18:56:08,226 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 18:56:08,247 - apiutil.py:111 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 18:56:08,265 - apiutil.py:202 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 18:56:08,275 - apiutil.py:208 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 18:56:08,279 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 18:57:08,042 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 18:57:08,054 - apiutil.py:122 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjE0MTgyOCwianRpIjoiNDkyOWI1MzQtZDdkNC00YjgxLWJjNzUtZjEzZWJmN2FiM2MyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjE0MTgyOCwiZXhwIjoxNzEyMTQyNzI4fQ.D7H074LrUT-Ezt1j5fj2rMpbIuc-Y32Hik9iBdH_A74'}}
+INFO - 2024-04-03 18:57:08,057 - apiutil.py:180 -[apiutil:extract_data] - json提取:{'token': 'b81C1BFa9bDde7E043DFECd40fC2d'}
+INFO - 2024-04-03 18:57:08,061 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 18:57:08,063 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 18:57:08,064 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 18:57:08,072 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 18:57:08,074 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 18:57:08,090 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 18:57:08,100 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 18:57:08,100 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 18:57:08,104 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+INFO - 2024-04-03 18:57:08,232 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 18:57:08,242 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 18:57:08,243 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 18:57:08,247 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 18:57:08,274 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 18:57:08,287 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 18:57:08,291 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 18:57:08,295 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 19:13:20,024 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 19:13:20,034 - apiutil.py:122 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjE0MjgwMCwianRpIjoiMWMzZjY5YjgtYzllNy00ZjQwLWFkYTctYTg1ZDU3Yzg3ZDAzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjE0MjgwMCwiZXhwIjoxNzEyMTQzNzAwfQ.gkQx59-Zih8CxfEmQRsN2MYpdKSccpcpBC0lFYXiRbM'}}
+INFO - 2024-04-03 19:13:20,037 - apiutil.py:180 -[apiutil:extract_data] - json提取:{'token': 'CFDF2b6DfFdc6C9ED56B0e6c6aA2A'}
+INFO - 2024-04-03 19:13:20,039 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 19:13:20,040 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 19:13:20,042 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 19:13:20,061 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 19:13:20,063 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 19:13:20,072 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 19:13:20,079 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 19:13:20,080 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 19:13:20,083 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+ERROR - 2024-04-03 19:13:20,113 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果未携带cookie信息不包含预期值操作成功
+INFO - 2024-04-03 19:13:20,193 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 19:13:20,200 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 19:13:20,201 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 19:13:20,210 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 19:13:20,228 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 19:13:20,238 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 19:13:20,238 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 19:13:20,241 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 19:15:47,368 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 19:15:47,378 - apiutil.py:122 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjE0Mjk0NywianRpIjoiMzhjNjU1YjUtYTU5Ny00NGZmLWI3NDUtN2ZmODk2ZjE2NWYzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjE0Mjk0NywiZXhwIjoxNzEyMTQzODQ3fQ.1W13u2epWJhVhPqTLkegZH9PWTdNRg4HUKLbeFLl-go'}}
+INFO - 2024-04-03 19:15:47,380 - apiutil.py:180 -[apiutil:extract_data] - json提取:{'token': 'F0177288adD6C560ef9AcaCe83FbA'}
+INFO - 2024-04-03 19:15:47,382 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 19:15:47,383 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 19:15:47,384 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 19:15:47,390 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 19:15:47,391 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 19:15:47,399 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 19:15:47,405 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 19:15:47,405 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 19:15:47,406 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+ERROR - 2024-04-03 19:15:47,426 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果未携带cookie信息不包含预期值操作成功
+INFO - 2024-04-03 19:15:47,493 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 19:15:47,499 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 19:15:47,500 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 19:15:47,502 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 19:15:47,520 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 19:15:47,546 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 19:15:47,547 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 19:15:47,549 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 19:17:18,300 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 19:17:18,312 - apiutil.py:122 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjE0MzAzOCwianRpIjoiNDI4Mzc2M2QtNzgyMC00YTg0LWJlODUtMTRkMDFkZDE5NGRjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjE0MzAzOCwiZXhwIjoxNzEyMTQzOTM4fQ.2_c9AN4c1xFfTn1Zo5NwUrbcje_I0XlnbCyVLO6cvig'}}
+INFO - 2024-04-03 19:17:18,315 - apiutil.py:180 -[apiutil:extract_data] - json提取:{'token': 'A2F0554bdc9Bc5fc82C9b2beaBFb5'}
+INFO - 2024-04-03 19:17:18,320 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 19:17:18,324 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 19:17:18,325 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 19:17:18,330 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 19:17:18,334 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 19:17:18,348 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 19:17:18,359 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 19:17:18,359 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 19:17:18,362 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+ERROR - 2024-04-03 19:17:18,393 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果未携带cookie信息不包含预期值操作成功
+INFO - 2024-04-03 19:17:18,480 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 19:17:18,491 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 19:17:18,492 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 19:17:18,498 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 19:17:18,518 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 19:17:18,529 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 19:17:18,530 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 19:17:18,534 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 19:32:15,686 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 19:32:15,696 - apiutil.py:122 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjE0MzkzNSwianRpIjoiNWEyZmFmZWItOThiNC00YTU5LTliMjUtODdkNjFiNzg2NjM4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjE0MzkzNSwiZXhwIjoxNzEyMTQ0ODM1fQ.7b231qhwIIA68Pz_65Z2ofgsb51fMrvhNKXCvD4X2LY'}}
+INFO - 2024-04-03 19:32:15,699 - apiutil.py:180 -[apiutil:extract_data] - json提取:{'token': 'ecfB2fBffD9EF93BbBb98D8a2b5BC'}
+INFO - 2024-04-03 19:32:15,701 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 19:32:15,702 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 19:32:15,703 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 19:32:15,709 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 19:32:15,711 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 19:32:15,725 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 19:32:15,732 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 19:32:15,733 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 19:32:15,734 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+ERROR - 2024-04-03 19:32:15,761 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果未携带cookie信息不包含预期值操作成功
+INFO - 2024-04-03 19:32:15,832 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 19:32:15,838 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 19:32:15,838 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 19:32:15,845 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 19:32:15,860 - apiutil.py:112 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 19:32:15,868 - apiutil.py:203 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 19:32:15,868 - apiutil.py:209 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 19:32:15,871 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 21:20:37,193 - apiutil.py:119 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 21:20:37,452 - apiutil.py:129 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMjE1MDQzNywianRpIjoiYzljODNlMjktNmM0MS00NGJmLWFlNjMtMTk5MGM5MzVkYWJhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMjE1MDQzNywiZXhwIjoxNzEyMTUxMzM3fQ.cvS-gFXS6WffH-Oodi8VYQ-YFCzLPkTeFWqTkWjRqzU'}}
+INFO - 2024-04-03 21:20:37,455 - apiutil.py:187 -[apiutil:extract_data] - json提取:{'token': 'ECB73a46a6d4beBfeD4aCF6CaB032'}
+INFO - 2024-04-03 21:20:37,457 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 21:20:37,458 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-03 21:20:37,460 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-03 21:20:37,509 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-03 21:20:37,520 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-03 21:20:37,538 - apiutil.py:119 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-03 21:20:37,549 - apiutil.py:210 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-03 21:20:37,550 - apiutil.py:216 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-03 21:20:37,560 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+ERROR - 2024-04-03 21:20:37,595 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果未携带cookie信息不包含预期值操作成功
+INFO - 2024-04-03 21:20:37,686 - apiutil.py:119 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-03 21:20:37,702 - apiutil.py:210 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-03 21:20:37,702 - apiutil.py:216 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-03 21:20:37,704 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-03 21:20:37,746 - apiutil.py:119 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-03 21:20:37,776 - apiutil.py:210 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-03 21:20:37,780 - apiutil.py:216 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-03 21:20:37,786 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
