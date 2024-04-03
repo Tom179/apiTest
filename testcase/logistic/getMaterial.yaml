@@ -5,7 +5,7 @@
     header:
       Content-Type: application/json;charset=UTF-8
     cookies:
-      ${get_extract_data(cookie)}
+      ${get_extract_data(Cookie)}
   testCase:
     - case_name: 获取物料信息成功
       validation:

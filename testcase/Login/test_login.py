@@ -10,6 +10,7 @@ from common.recordlog import logs
 class TestLogin:
 
     # @allure.story("用户名密码登录正确")  # 用例名
+    @pytest.mark.order(1)
     @pytest.mark.parametrize("base_info,testcase", readTestCase("./testcase/Login/login.yaml"))  # 传入yaml文件中的参数
     def test_Login01(self, base_info, testcase):
         # logs.info(f"参数化为:{params}")

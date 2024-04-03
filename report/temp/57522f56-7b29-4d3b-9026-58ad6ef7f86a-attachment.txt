@@ -1,4 +1,0 @@
-[32mINFO    [0m common.recordlog:apiutil.py:119 参数类型data
-[32mINFO    [0m common.recordlog:apiutil.py:210 提取的参数为:[None]
-[32mINFO    [0m common.recordlog:apiutil.py:216 json提取到参数：{'token': [None]}
-[32mINFO    [0m common.recordlog:assertion.py:46 msg包含断言成功

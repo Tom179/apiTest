@@ -11,6 +11,7 @@ from common.debugTalk import DebufTalk
 from common.recordlog import logs
 from conf.oprateConfig import OprateConfig
 from common.assertion import Assertion
+import common.debugTalk
 
 assert_res = Assertion()
 
@@ -43,7 +44,14 @@ class BaseRequests:
                 print("获取参数名", func_params)
 
                 print("spilt结果为", func_params.split(','))
-                extract_data = getattr(DebufTalk(), func_name)(*func_params.split(',') if func_params else "")
+                if len(func_params.split(',')) > 1:
+                    print("提取键大于1")
+                    extract_data = getattr(DebufTalk(), func_name)(*func_params.split(',') if func_params else "")
+                else:
+                    print("提取键小于1")
+                    extract_data = getattr(DebufTalk(), func_name)(*func_params.split(',') if func_params else "")
+                    # print("extract_data")
+                    # extract_data = DebufTalk().get_extract_data("Cookie")
                 # getattr返回一个类的方法或属性，如果是方法的话会执行该方法
 
                 print("调用解析函数", extract_data)  # 传入替换参数对应的值
@@ -84,16 +92,17 @@ class BaseRequests:
 
         cookie = {}
         print(type(cookie))
-        # # try:
-        # print("yaml用例信息的cookies为", base_info["cookies"], "类型为", type(base_info["cookies"]))
-        # cookie = self.replace_laod(base_info["cookies"])  # 解析表达式获取cookie
-        # print("获取到cookie为:", cookie)
-        # print(type(cookie))
-        # cookie = json.loads(cookie)
-        # print("cookie的类型为", type(cookie))
-        # print("cookie为", cookie["access_token_cookie"])
-        # except:
-        #     pass
+        try:
+            print("yaml用例信息的cookies为", base_info["cookies"], "类型为", type(base_info["cookies"]))
+            cookieStr = self.replace_laod(base_info["cookies"])  # 解析表达式获取cookie
+            # print("获取到cookie为:", cookie)
+            # print(type(cookie))
+            cookie = json.loads(cookieStr)
+            print("cookie的类型为", type(cookie))
+            print("cookie为", cookie["access_token_cookie"])
+        except:
+            pass
+        print("构造参数")
 
         case_name = test_case.pop("case_name")
         val = self.replace_laod(test_case.get("validation"))
@@ -113,17 +122,20 @@ class BaseRequests:
             ArgType = list(test_case.keys())[0]  # 获取参数类型，params、data、json
             Params = {
                 ArgType: test_case[ArgType],
-                # "cookies": cookie["access_token_cookie"]
+                # "cookies": cookie["access_token_cookie"]#有问题
             }  # 获取不定类型的参数
             print("参数：", test_case[ArgType])
             logs.info(f"参数类型{ArgType}")
 
         allure.attach(str(Params), f"请求参数:{str(Params)}", allure.attachment_type.TEXT)
-
+        print("发起请求↑")
         # request请求的可选参数**kwargs传入一个**字典就可以
         res = requests.request(url=url, **Params, headers=header, method=method, cookies=cookie, files=None)
+        print("接收响应")
         set_cookie = requests.utils.dict_from_cookiejar(res.cookies)
         if set_cookie:
+            print("cookie类型为：", type(cookie))
+            print("set_cookie为", set_cookie)
             cookie["Cookie"] = set_cookie
             self.OprateYaml.write_yaml_data(cookie)
             logs.info(f"cookie{cookie}")

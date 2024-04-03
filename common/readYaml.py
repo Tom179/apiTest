@@ -60,7 +60,7 @@ class ReadYamlData:  # 与yaml文件进行交互
 
         with open(file_path, "r", encoding="utf-8") as rf:
             extract_data = yaml.safe_load(rf)
-            # print(f"提取出的{node_name}为:{extract_data}")
+            print(f"提取出的{node_name}为:{extract_data}")
 
         return extract_data[node_name]
 

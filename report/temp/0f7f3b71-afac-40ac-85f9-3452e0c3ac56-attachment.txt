@@ -1,4 +1,0 @@
-[32mINFO    [0m common.recordlog:apiutil.py:119 参数类型json
-[32mINFO    [0m common.recordlog:apiutil.py:210 提取的参数为:False
-[32mINFO    [0m common.recordlog:apiutil.py:216 json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
-[32mINFO    [0m common.recordlog:assertion.py:46 error_code包含断言成功

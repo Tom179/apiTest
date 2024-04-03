@@ -16,6 +16,7 @@ class DebufTalk:
         :param random: 随机读取extract.yaml中的数据
         '''
         data = self.OperateYaml.get_extract_yaml(node_name)  # 根据键名获取extract中间文件的结果
+        print("get_extract_yaml获取",data)
         # print(data)
         if randoms is not None:
             randomKey = int(randoms)
