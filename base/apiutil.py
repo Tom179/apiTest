@@ -90,18 +90,6 @@ class BaseRequests:
         allure.attach(str(header), f"请求头:{str(header)}", allure.attachment_type.TEXT)
         allure.attach(method, f"请求方法:{method}", allure.attachment_type.TEXT)
 
-        cookie = {}
-        print(type(cookie))
-        try:
-            print("yaml用例信息的cookies为", base_info["cookies"], "类型为", type(base_info["cookies"]))
-            cookieStr = self.replace_laod(base_info["cookies"])  # 解析表达式获取cookie
-            # print("获取到cookie为:", cookie)
-            # print(type(cookie))
-            cookie = json.loads(cookieStr)
-            print("cookie的类型为", type(cookie))
-            print("cookie为", cookie["access_token_cookie"])
-        except:
-            pass
         print("构造参数")
 
         case_name = test_case.pop("case_name")
@@ -119,20 +107,37 @@ class BaseRequests:
         print("获取到的test_case长度为", len(test_case.keys()))
         Params = {}
         if len(test_case.keys()) != 0:
+            print("有参数，构造请求头，参数类型")
             ArgType = list(test_case.keys())[0]  # 获取参数类型，params、data、json
             Params = {
                 ArgType: test_case[ArgType],
-                # "cookies": cookie["access_token_cookie"]#有问题
+                # "cookies": cookie["access_token_cookie"]  # 有问题
             }  # 获取不定类型的参数
             print("参数：", test_case[ArgType])
             logs.info(f"参数类型{ArgType}")
+
+        cookie = {}
+        print(type(cookie))
+        if "cookies" in base_info:  # 如果键存在
+            # print("cookie键存在")
+            # print("用例信息中有设置cookie，开启语法分析替换")
+            cookieStr = self.replace_laod(base_info["cookies"])  # 解析表达式获取cookie
+            stripped_string = cookieStr.strip("'")
+            cookieStr = stripped_string.replace("'", "\"")
+            # print("cookieStr为：", cookieStr)
+
+            cookie = json.loads(cookieStr)
+            # print("转换为字典后的cookie为", cookie)
+            # print("cookie type", type(cookie))
+            # print("提取出的用例base_info为", base_info)
+            # Params["cookies"] = cookie["access_token_cookie"]  # 有问题
 
         allure.attach(str(Params), f"请求参数:{str(Params)}", allure.attachment_type.TEXT)
         print("发起请求↑")
         # request请求的可选参数**kwargs传入一个**字典就可以
         res = requests.request(url=url, **Params, headers=header, method=method, cookies=cookie, files=None)
         print("接收响应")
-        set_cookie = requests.utils.dict_from_cookiejar(res.cookies)
+        set_cookie = requests.utils.dict_from_cookiejar(res.cookies)  # 写入cookie
         if set_cookie:
             print("cookie类型为：", type(cookie))
             print("set_cookie为", set_cookie)

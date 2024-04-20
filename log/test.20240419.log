@@ -1,0 +1,42 @@
+INFO - 2024-04-19 17:12:02,488 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 17:12:04,927 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 17:12:09,316 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-19 17:13:58,482 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 17:14:00,743 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 17:14:05,129 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-19 17:15:15,081 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 17:15:17,323 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 17:15:21,974 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-19 19:35:02,164 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 19:35:04,434 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 19:35:08,893 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-19 19:57:29,812 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 19:57:32,079 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 19:57:36,616 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-19 21:33:19,672 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 21:33:21,903 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 21:33:26,264 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-19 22:10:46,396 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 22:10:48,767 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 22:10:53,217 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-19 22:14:05,239 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 22:14:05,253 - apiutil.py:146 -[apiutil:specification_yaml] - cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMzUzNjA0NSwianRpIjoiNmE1MmVjNDctNzkwMS00ZmM4LWExZGYtMzk1ZDNkMWNlNTM1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMzUzNjA0NSwiZXhwIjoxNzEzNTM2OTQ1fQ.uCV5Wvlxvx7FTPDXl5P87E9m422u-E-sRPMH45XIJg4'}}
+INFO - 2024-04-19 22:14:05,255 - apiutil.py:204 -[apiutil:extract_data] - json提取:{'token': 'C8D4C966fFefeAFBbeF390fd9BC2a'}
+INFO - 2024-04-19 22:14:05,256 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-19 22:14:05,257 - assertion.py:28 -[assertion:contains_assert] - status_code包含断言成功
+INFO - 2024-04-19 22:14:05,257 - assertion.py:62 -[assertion:equal_assert] - 相等断言成功
+INFO - 2024-04-19 22:14:05,418 - connect.py:22 -[connect:__init__] - 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO - 2024-04-19 22:14:05,536 - assertion.py:120 -[assertion:assert_mysql] - 数据库断言成功
+INFO - 2024-04-19 22:14:05,545 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型data
+INFO - 2024-04-19 22:14:05,552 - apiutil.py:227 -[apiutil:extract_data_list] - 提取的参数为:[None]
+INFO - 2024-04-19 22:14:05,552 - apiutil.py:233 -[apiutil:extract_data_list] - json提取到参数：{'token': [None]}
+INFO - 2024-04-19 22:14:05,553 - assertion.py:46 -[assertion:contains_assert] - msg包含断言成功
+ERROR - 2024-04-19 22:14:05,572 - assertion.py:49 -[assertion:contains_assert] - contains断言失败,实际结果未携带cookie信息不包含预期值操作成功
+INFO - 2024-04-19 22:14:05,664 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型params
+INFO - 2024-04-19 22:14:05,672 - apiutil.py:227 -[apiutil:extract_data_list] - 提取的参数为:['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']
+INFO - 2024-04-19 22:14:05,673 - apiutil.py:233 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-04-19 22:14:05,676 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功
+INFO - 2024-04-19 22:14:05,705 - apiutil.py:133 -[apiutil:specification_yaml] - 参数类型json
+INFO - 2024-04-19 22:14:05,726 - apiutil.py:227 -[apiutil:extract_data_list] - 提取的参数为:False
+INFO - 2024-04-19 22:14:05,726 - apiutil.py:233 -[apiutil:extract_data_list] - json提取到参数：{'goodsId': '未提取到数据，该接口返回结果可能为空'}
+INFO - 2024-04-19 22:14:05,730 - assertion.py:46 -[assertion:contains_assert] - error_code包含断言成功

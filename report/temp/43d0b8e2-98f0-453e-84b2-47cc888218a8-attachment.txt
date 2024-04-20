@@ -1,0 +1,8 @@
+INFO     common.recordlog:apiutil.py:117 参数类型data
+INFO     common.recordlog:apiutil.py:146 cookie{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMzYzOTUzMCwianRpIjoiZmFjNGQwMGEtYjhiYi00MTkyLWFhZTItY2JiOGIwNzg2YWRjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTcxMzYzOTUzMCwiZXhwIjoxNzEzNjQwNDMwfQ.QtYLl97wKT3vbsN2Sm3c7DtFktmOnNL64sAmLWN7O4I'}}
+INFO     common.recordlog:apiutil.py:204 json提取:{'token': 'c608994Af91F2A12B55fF51b0fcF4'}
+INFO     common.recordlog:assertion.py:46 error_code包含断言成功
+INFO     common.recordlog:assertion.py:28 status_code包含断言成功
+INFO     common.recordlog:assertion.py:62 相等断言成功
+INFO     common.recordlog:connect.py:22 成功连mysql host:127.0.0.1 port3306 dbdemo
+INFO     common.recordlog:assertion.py:120 数据库断言成功
