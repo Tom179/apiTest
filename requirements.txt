@@ -1,0 +1,9 @@
+allure_python_commons==2.13.3
+jsonpath==0.82.2
+PyMySQL==1.1.0
+pytest==7.4.4
+python_jenkins==1.8.2
+PyYAML==6.0.1
+PyYAML==6.0.1
+Requests==2.31.0
+urllib3==1.26.18
